@@ -4,6 +4,18 @@ body.main-page
 	color: #ffffff;
 }
 
+body.main-page > section.share a
+{
+	fill: #808080;
+	color: #808080;
+}
+
+body.main-page > section.author
+{
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+
 iframe.AppFrame
 {
 	height: calc(100vh - 4rem);
