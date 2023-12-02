@@ -12,3 +12,4 @@ menu:
   - title: "Feed"
     url: "/feed.xml"
 email: "gamingshitposting@github.com"
+date_format: "%Y.%m.%d"

@@ -4,7 +4,6 @@ title: "Picross DS"
 subtitle: "Unveil Hidden Images in \"Picross DS\" – A Puzzler's Paradise."
 description: "Picross DS, a captivating puzzle game for the Nintendo DS, challenges players with nonograms, requiring strategic logic to reveal pixelated images and unlock a myriad of brain-teasing puzzles, blending creativity and problem-solving in a handheld gaming experience."
 image: "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_ds_22/SI_NDS_PicrossDS_enGB_image1600w.jpg"
-optimized_image: "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_ds_22/SI_NDS_PicrossDS_enGB_image1600w.jpg"
 category: "games"
 tags:
   - "nds"
@@ -14,14 +13,14 @@ tags:
 author: "octt"
 ---
 
-Picross DS, a prominent title for the Nintendo DS, immerses players in the world of nonogram puzzles, an enthralling blend of logic and creativity. Released in [year], this game captivates puzzle enthusiasts with its challenging gameplay and visually stimulating grid-based conundrums. As players embark on their Picross journey, they encounter an extensive array of puzzles, each one a unique piece of art waiting to be revealed through careful deduction and strategic thinking.
+Picross DS, released for the Nintendo DS in 2007, stands as a pinnacle in the realm of nonogram puzzle games, offering a rich and comprehensive experience for players seeking a blend of logic, strategy, and entertainment. Developed by Jupiter Corporation, the game presents a vast collection of nonogram puzzles, also known as Picross or Griddlers, where players reveal hidden images by filling in specific cells on a grid based on numerical clues provided for each row and column.
 
-The core mechanic revolves around a grid filled with numerical clues, challenging players to meticulously uncover the hidden image by systematically filling in the correct squares. The puzzles range in complexity, from simple introductory levels to mind-bending challenges that test even the most seasoned Picross aficionados. With over [number] puzzles to solve, players find themselves engaged in a progressively challenging adventure, constantly honing their analytical skills.
+The game's subtitle, "Picross DS – The Definitive Nonogram Experience," aptly encapsulates its status as a benchmark for the genre. The title delivers a seamless and engaging interface, making use of the Nintendo DS's touch screen capabilities for intuitive puzzle-solving. The stylus becomes a versatile tool, allowing players to navigate the grids with precision and speed, enhancing the overall gameplay experience.
 
-What sets Picross DS apart is its intuitive touch screen controls, allowing players to effortlessly navigate and interact with the puzzles using the DS stylus. The handheld nature of the DS enhances the pick-up-and-play appeal, making it a perfect on-the-go companion for puzzle enthusiasts.
+Picross DS caters to players of all skill levels, featuring puzzles that range from beginner-friendly to mind-bending expert challenges. The gradual increase in difficulty ensures a satisfying progression for players honing their deductive reasoning skills. The game's structured approach to puzzle difficulty, combined with its user-friendly design, invites both newcomers and seasoned puzzle enthusiasts to delve into its captivating world.
 
-Beyond its solo puzzle-solving experience, Picross DS offers multiplayer options, allowing friends to engage in friendly competitions or cooperate to conquer especially perplexing puzzles. The game's charming visuals and soothing music complement the immersive puzzle-solving experience, creating a delightful atmosphere that keeps players coming back for more.
+One of the standout features of Picross DS is its multiplayer functionality, adding a sociable aspect to the solitary nature of puzzle-solving. Friends can join forces to conquer cooperative puzzles or engage in head-to-head competitions, fostering a sense of camaraderie and friendly rivalry. This multiplayer dimension sets Picross DS apart, transforming it into a communal experience that extends beyond individual gameplay sessions.
 
-In the realm of handheld puzzle gaming, Picross DS stands as a timeless classic, praised for its ingenious design, challenging puzzles, and enduring appeal to players of all ages. Whether you're a seasoned puzzle veteran or a newcomer to nonograms, Picross DS invites you to unravel its pixelated mysteries and bask in the satisfaction of revealing intricate images through the power of deductive reasoning.
+With its timeless appeal, Picross DS continues to be celebrated as a classic within the Nintendo DS library. Its enduring popularity is a testament to the enduring allure of nonogram puzzles and the masterful execution of the genre by Jupiter Corporation. Whether played for a few minutes of casual relaxation or dedicated hours of strategic engagement, Picross DS remains a definitive title in the world of handheld puzzle gaming.
 
 {% include emulator.html platform='nds' rom_binary='https://octospacc.gitlab.io/ROMs-Archive-Misc/Picross-DS-Demo.nds' %}

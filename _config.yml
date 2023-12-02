@@ -13,7 +13,7 @@ menu:
   - title: "Feed"
     url: "/feed.xml"
 email: "gamingshitposting@github.com"
-
+date_format: "%Y.%m.%d"
 
 # Social Media Settings
 # Remove the item if you don't need it
