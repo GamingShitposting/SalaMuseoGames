@@ -1,40 +1,24 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: "Sala Museo Games"
+title: "Sala Museo Games | Where art is your new play"
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - "blog"
+  - "games"
 show_hero: true
 menu:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@test.com
-# See: https://disqus.com/
-disqus_username: disqus_username
-# Contact Form Setting
-# See: https://formspree.io/
-formspree_form_id: formspree_form_id
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Feed"
+    url: "/feed.xml"
+email: "gamingshitposting@github.com"
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: "GamingShitposting"
+telegram_username: "gamingshitpost"
 
 
 # Posts Settings
@@ -45,11 +29,10 @@ two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+baseurl: "SalaMuseoGames" # the subpath of your site, e.g. /blog
+url: "https://gamingshitposting.github.io" # the base hostname & protocol for your site
 language: "en"
-categories_folder: category
+categories_folder: "category"
 sent_message_url: "/contact/message-sent/"
 
 
