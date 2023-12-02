@@ -16,6 +16,26 @@ body.main-page > section.author
 	color: #ffffff;
 }
 
+body.main-page > section.author a
+{
+	color: #ffffff;
+}
+
+body.main-page > section.author a > img
+{
+	display: inline;
+	width: 24px;
+}
+
+footer a > img
+{
+	display: inline-block;
+	vertical-align: middle;
+	width 24px;
+	height: 24px;
+	border-radius: 999px;
+}
+
 iframe.AppFrame
 {
 	height: calc(100vh - 4rem);
