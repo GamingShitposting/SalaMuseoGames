@@ -14,6 +14,9 @@ menu:
   - title: "Contact"
     url: "https://github.com/GamingShitposting/SalaMuseoGames/issues/new/choose"
     type: "external"
+  - title: "Contribute (GitHub)"
+    url: "https://github.com/GamingShitposting/SalaMuseoGames"
+    type: "external"
   - title: "Feed"
     url: "/feed.xml"
 email: "gamingshitposting@github.com"
@@ -48,7 +51,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
