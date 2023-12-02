@@ -43,29 +43,16 @@
             <svg><use xlink:href="#icon-linkedin"></use></svg>
           </a>
         {% endif %}
+        {% if author.telegram_username %}
+          <a href="https://t.me/{{ author.telegram_username }}" title="Telegram">
+            <svg><use xlink:href="#icon-telegram"></use></svg>
+          </a>
+        {% endif %}
       </p>
     </div>
   </section>
 
-  {% assign author_urls = '' %}
-  {% if author.github_username %}
-      {% assign author_urls = author_urls | append: '"https://github.com/' | append: author.github_username | append: '",' %}
-  {% endif %}
-  {% if author.facebook_username %}
-      {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: author.facebook_username | append: '",' %}
-  {% endif %}
-  {% if author.twitter_username %}
-      {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: author.twitter_username | append: '",' %}
-  {% endif %}
-  {% if author.medium_username %}
-      {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: author.medium_username | append: '",' %}
-  {% endif %}
-  {% if author.instagram_username %}
-      {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: author.instagram_username | append: '",' %}
-  {% endif %}
-  {% if author.linkedin_username %}
-      {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
-  {% endif %}
+  {% include page-author-urls.html %}
 
   <script type="application/ld+json">
   {

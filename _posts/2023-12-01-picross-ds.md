@@ -1,8 +1,10 @@
 ---
 layout: "post"
 title: "Picross DS"
-image: ""
-optimized_image: ""
+subtitle: ""
+description: ""
+image: "test.jpg"
+optimized_image: "test.jpg"
 category: "games"
 tags:
   - "nds"

@@ -22,14 +22,14 @@ telegram_username: "gamingshitpost"
 
 
 # Posts Settings
-show_time_bar: true
+show_time_bar: false
 show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "SalaMuseoGames" # the subpath of your site, e.g. /blog
+baseurl: "/SalaMuseoGames" # the subpath of your site, e.g. /blog
 url: "https://gamingshitposting.github.io" # the base hostname & protocol for your site
 language: "en"
 categories_folder: "category"
