@@ -1,0 +1,99 @@
+# Site Settings
+name: "Sala Museo Games"
+title: "Sala Museo Games | Where art is your new play"
+description: "Sala Museo Games invites you to explore the interactive realm where gaming meets art. Immerse yourself in a curated collection of timeless video games, seamlessly playable online. Rediscover classics and embrace new adventures—where every click is a brushstroke in the canvas of digital entertainment. Welcome to the Museum Room, where art is your new play."
+tags:
+  - "blog"
+  - "games"
+show_hero: true
+menu:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Contact"
+    url: "https://github.com/GamingShitposting/SalaMuseoGames/issues/new/choose"
+    type: "external"
+  - title: "Contribute (GitHub)"
+    url: "https://github.com/GamingShitposting/SalaMuseoGames"
+    type: "external"
+  - title: "Feed"
+    url: "/feed.xml"
+email: "gamingshitposting@github.com"
+date_format: "%Y.%m.%d"
+
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: "GamingShitposting"
+telegram_username: "gamingshitpost"
+
+
+# Posts Settings
+show_time_bar: false
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+
+# Advanced Settings
+baseurl: "/SalaMuseoGames" # the subpath of your site, e.g. /blog
+url: "https://gamingshitposting.github.io" # the base hostname & protocol for your site
+language: "en"
+categories_folder: "category"
+sent_message_url: "/contact/message-sent/"
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: false
+use_logo: false
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+
+# Exclude my node related stuff
+exclude: [
+  'vendor',
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
+
+# Theme
+version: "Beta"

@@ -1,0 +1,51 @@
+body.main-page,
+body.main-page blockquote *
+{
+	background-color: #141414;
+	color: #ffffff;
+}
+
+body.main-page aside.see-also a,
+body.main-page section.author a
+{
+	color: #ffffff;
+}
+
+body.main-page > section.share a
+{
+	fill: #808080;
+	color: #808080;
+}
+
+body.main-page > section.author
+{
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+
+body.main-page > section.author a > img,
+footer a > img
+{
+	display: inline-block;
+	margin-right: 12px;
+	width: 24px;
+	height: 24px;
+	float: none;
+	border-radius: 999px;
+	background-color: #808080;
+}
+
+body.main-page > section.author a > img,
+footer a > img,
+body.main-page > section.author a > svg,
+footer a > svg
+{
+	vertical-align: middle;
+}
+
+iframe.AppFrame
+{
+	height: calc(100vh - 4rem);
+	border: none;
+	overflow: hidden;
+}

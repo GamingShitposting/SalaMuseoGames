@@ -1,0 +1,19 @@
+name: "Sala Museo Games"
+title: "Sala Museo Games | Where art is your new play"
+description: "Sala Museo Games invites you to explore the interactive realm where gaming meets art. Immerse yourself in a curated collection of timeless video games, seamlessly playable online. Rediscover classics and embrace new adventures—where every click is a brushstroke in the canvas of digital entertainment. Welcome to the Museum Room, where art is your new play."
+tags:
+  - "blog"
+  - "games"
+show_hero: true
+menu:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Contact"
+    url: "https://github.com/GamingShitposting/SalaMuseoGames/issues/new/choose"
+    type: "external"
+  - title: "Feed"
+    url: "/feed.xml"
+email: "gamingshitposting@github.com"
+date_format: "%Y.%m.%d"

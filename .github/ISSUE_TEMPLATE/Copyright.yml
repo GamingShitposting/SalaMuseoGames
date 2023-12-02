@@ -1,0 +1,14 @@
+name: "Copyright Issue"
+description: "Create a ticket regarding matters of copyright on the content provided by the website."
+title: "[Copyright] - <Title>"
+labels:
+  - "Copyright"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Provide a comprehensive explanation of the copyright issue, as well as any required information for us to evaluate your claims and handle your request. If and only if you have to provide sensitive information, we can arrange for moving the conversation to a private channel."
+      placeholder: "Provide a comprehensive explanation of the copyright issue, as well as any required information for us to evaluate your claims and handle your request. If and only if you have to provide sensitive information, we can arrange for moving the conversation to a private channel."
+    validations:
+      required: true
