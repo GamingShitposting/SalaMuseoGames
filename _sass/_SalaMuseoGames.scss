@@ -23,13 +23,7 @@ body.main-page > section.author
 	color: #ffffff;
 }
 
-body.main-page > section.author a > img
-{
-	display: inline;
-	float: none;
-	width: 24px;
-}
-
+body.main-page > section.author a > img,
 footer a > img
 {
 	display: inline-block;
@@ -37,7 +31,9 @@ footer a > img
 	margin-right: 12px;
 	width: 24px;
 	height: 24px;
+	float: none;
 	border-radius: 999px;
+	background-color: #808080;
 }
 
 iframe.AppFrame

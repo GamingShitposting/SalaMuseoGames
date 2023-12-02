@@ -13,7 +13,7 @@ menu:
     url: "/about"
   - title: "Contact"
     url: "https://github.com/GamingShitposting/SalaMuseoGames/issues/new/choose"
-    internal: false
+    external: true
   - title: "Feed"
     url: "/feed.xml"
 email: "gamingshitposting@github.com"
