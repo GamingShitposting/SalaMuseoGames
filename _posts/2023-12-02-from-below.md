@@ -16,7 +16,7 @@ author: "octt"
 
 From <https://frombelowgame.com/>:
 
-<blockquote>
+<blockquote markdown="true">
 	From the deepest trenches of the ocean, the Kraken has come!
 
 	As the Kraken climbs the walls of your fortress, repel it by hurtling blocks down at the monster. As lines are cleared, the Kraken will retreat, but only momentarily.
