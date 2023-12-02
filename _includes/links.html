@@ -2,7 +2,7 @@
   {% for item in site.menu %}
     {% if item.title and item.url %}
       <li>
-        <a href="{% if item.external == false %}{{ site.baseurl }}{% endif %}{{ item.url }}">{{ item.title }}</a>
+        <a href="{% if item.internal == true %}{{ site.baseurl }}{% endif %}{{ item.url }}">{{ item.title }}</a>
       </li>
     {% endif %}
   {% endfor %}
