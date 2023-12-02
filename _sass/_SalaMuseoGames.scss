@@ -4,9 +4,10 @@ body.main-page
 	color: #ffffff;
 }
 
-body.main-page a
+body.main-page aside.see-also a,
+body.main-page section.author a
 {
-	color: #ffffff !important;
+	color: #ffffff;
 }
 
 body.main-page > section.share a
