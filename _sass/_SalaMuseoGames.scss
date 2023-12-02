@@ -4,6 +4,11 @@ body.main-page
 	color: #ffffff;
 }
 
+body.main-page a
+{
+	color: #ffffff;
+}
+
 body.main-page > section.share a
 {
 	fill: #808080;
@@ -13,11 +18,6 @@ body.main-page > section.share a
 body.main-page > section.author
 {
 	background-color: #1a1a1a;
-	color: #ffffff;
-}
-
-body.main-page > section.author a
-{
 	color: #ffffff;
 }
 
