@@ -1,4 +1,7 @@
 {% assign author_urls = '' %}
+{% if page.website_url %}
+    {% assign author_urls = author_urls | append: '"' | append: page.website_url | append: '",' %}
+{% endif %}
 {% if page.github_username %}
     {% assign author_urls = author_urls | append: '"https://github.com/' | append: page.github_username | append: '",' %}
 {% endif %}

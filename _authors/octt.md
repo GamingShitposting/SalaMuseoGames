@@ -9,4 +9,3 @@ github_username: "octospacc"
 telegram_username: "ioctt"
 website_url: "https://hub.octt.eu.org"
 ---
-

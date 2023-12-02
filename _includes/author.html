@@ -13,6 +13,11 @@
       </h3>
       <p class="desc">{{ author.bio }}</p>
       <p>
+        {% if author.website_url %}
+          <a href="{{ author.website_url }}" title="Website">
+            <img src="{{ site.baseurl }}/assets/img/icons/fa-globe.svg"/>
+          </a>
+        {% endif %}
         {% if author.github_username %}
           <a href="https://github.com/{{ author.github_username }}" title="Github">
             <svg><use xlink:href="#icon-github"></use></svg>
