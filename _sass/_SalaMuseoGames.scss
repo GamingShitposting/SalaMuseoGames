@@ -1,3 +1,11 @@
-iframe.AppFrame {
-	height: 100vh;
+body.main-page
+{
+	background-color: #141414;
+	color: #ffffff;
+}
+
+iframe.AppFrame
+{
+	height: calc(100vh - 4rem);
+	border: none;
 }
