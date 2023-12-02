@@ -1,0 +1,14 @@
+name: "Sala Museo Games"
+title: "Sala Museo Games | Where art is your new play"
+tags:
+  - "blog"
+  - "games"
+show_hero: true
+menu:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Feed"
+    url: "/feed.xml"
+email: "gamingshitposting@github.com"
