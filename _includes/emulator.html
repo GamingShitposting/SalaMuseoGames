@@ -1,5 +1,9 @@
 <div>
-	<button onclick="this.nextElementSibiling.focus(); this.nextElementSibiling.scrollIntoView();">Focus</button>
+	<button onclick="(function(){
+		var frame = this.parentElement.querySelector('iframe.AppFrame');
+		frame.scrollIntoView();
+		frame.focus();
+	})()">Focus</button>
 	{% if include.platform == 'nds' %}
 		<iframe class="AppFrame" src="https://octospacc.gitlab.io/Web-Archives-Misc/Repo/DeSmuME/#RomUrl={{ include.rom_binary }}"></iframe>
 	{% endif %}
