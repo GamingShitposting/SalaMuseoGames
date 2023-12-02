@@ -1,0 +1,4 @@
+<button onclick="this.nextElementSibiling.focus()">Focus</button>
+{% if include.platform == 'nds' %}
+	<iframe class="AppFrame" src="https://octospacc.gitlab.io/Web-Archives-Misc/Repo/DeSmuME/#RomUrl={{ include.rom_binary }}"></iframe>
+{% endif %}

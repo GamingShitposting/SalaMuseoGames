@@ -1,10 +1,10 @@
 ---
 layout: "post"
 title: "Picross DS"
-subtitle: ""
-description: ""
-image: "/assets/media/test.jpg"
-optimized_image: "/assets/media/test.jpg"
+subtitle: "Test"
+description: "Test"
+image: "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_ds_22/SI_NDS_PicrossDS_enGB_image1600w.jpg"
+optimized_image: "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_ds_22/SI_NDS_PicrossDS_enGB_image1600w.jpg"
 category: "games"
 tags:
   - "nds"
@@ -14,4 +14,4 @@ tags:
 author: "octt"
 ---
 
-<iframe class="AppFrame" src="https://octospacc.gitlab.io/Web-Archives-Misc/Repo/DeSmuME/#RomUrl=https://octospacc.gitlab.io/ROMs-Archive-Misc/Picross-DS-Demo.nds"></iframe>
+{% include emulator.html platform='nds' rom_binary='https://octospacc.gitlab.io/ROMs-Archive-Misc/Picross-DS-Demo.nds' %}
