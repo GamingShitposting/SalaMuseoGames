@@ -8,7 +8,7 @@ permalink: "/about/"
 
 # About
 
-Welcome to "Sala Museo Games," a digital haven where the world of video games converges with the realm of art, transforming the way we experience and appreciate gaming culture. Our motive is simple yet profound—to create a virtual museum that not only preserves the rich history of video games but also makes them accessible to players worldwide, allowing them to relive the magic of classic titles and discover hidden gems, all in one online space.
+Welcome to "Sala Museo Games", a digital haven where the world of video games converges with the realm of art, transforming the way we experience and appreciate gaming culture. Our motive is simple yet profound—to create a virtual museum that not only preserves the rich history of video games but also makes them accessible to players worldwide, allowing them to relive the magic of classic titles and discover hidden gems, all in one online space.
 
 The driving force behind Sala Museo Games is a passion for gaming as an art form. We believe that video games, like traditional art, have the power to evoke emotions, tell stories, and leave a lasting impact on those who experience them. By curating an extensive collection of games, we aim to showcase the diverse and evolving landscape of this digital art form, from the pixelated wonders of the past to the cutting-edge masterpieces of the present.
 

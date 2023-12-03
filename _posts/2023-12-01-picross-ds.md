@@ -28,3 +28,7 @@ With its timeless appeal, Picross DS continues to be celebrated as a classic wit
 ## Try it!
 
 {% include emulator.html platform='nds' rom_binary='https://octospacc.gitlab.io/ROMs-Archive-Misc/Picross-DS-Demo.nds' %}
+
+## Resources
+
+* Official page of the game: <https://www.nintendo.co.uk/Games/Nintendo-DS/Picross-DS-272255.html>
