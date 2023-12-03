@@ -1,7 +1,10 @@
-{% if include.rom_index != '' and include.rom_url == '' %}
-	{% capture include.rom_url %}https://gamingshitposting.github.io/ext-bin-1/roms/{{ include.rom_index }}.nes.7z{% endcapture %}
+{% capture rom_url %}{{ include.rom_url }}{% endcapture %}
+
+{% if include.rom_index != '' and rom_url == '' %}
+	{% capture rom_url %}https://gamingshitposting.github.io/ext-bin-1/roms/{{ include.rom_index }}.nes.7z{% endcapture %}
 {% endif %}
 
+<p>
 {% if include.backend == 'emulatorjs' or include.platform == 'nes' %}
 	<div style="width:640px; height:480px; max-width:100%">
 		<div id="GameFrame"></div>
@@ -9,12 +12,11 @@
 	<script type="text/javascript">
 		EJS_player = '#GameFrame';
 		EJS_core = '{{ include.platform }}';
-		EJS_gameUrl = '{{ include.rom_url }}';
+		EJS_gameUrl = '{{ rom_url }}';
 		EJS_pathtodata = 'https://gamingshitposting.github.io/ext-bin-1/EmulatorJS/data/';
 	</script>
 	<script src="https://gamingshitposting.github.io/ext-bin-1/EmulatorJS/data/loader.js"></script>
 {% else %}
-<p>
 	<button onclick="(function(ctx){
 		ctx.parentElement.scrollIntoView();
 		ctx.parentElement.querySelector('iframe.AppFrame').focus();
@@ -22,5 +24,5 @@
 	{% if include.platform == 'nds' %}
 		<iframe class="AppFrame" src="https://octospacc.gitlab.io/Web-Archives-Misc/Repo/DeSmuME/#RomUrl={{ include.rom_binary }}"></iframe>
 	{% endif %}
-</p>
 {% endif %}
+</p>

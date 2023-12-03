@@ -1,0 +1,13 @@
+name: "Suggestion"
+description: "Create a ticket to suggest a new article for the site, or for general improvement suggestions."
+title: "[Suggestion] - <Title>"
+labels:
+  - "Suggestion"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "Provide a comprehensive explanation of your suggestion, as well as any additional information and context for it to be properly evaluated and handled by the staff and/or other community members."
+    validations:
+      required: true
