@@ -26,4 +26,4 @@ In conclusion, Space Invaders for the NES stands as a testament to the enduring 
 
 ## Try it!
 
-{% include emulator.html platform='nes' rom_index='26300f044b85b129ac41577cbff42a6f' %}
+{% include emulator.html platform='nes' rom_index='26300f044b85b129ac41577cbff42a6f.nes' %}

@@ -1,11 +1,29 @@
 {% capture rom_url %}{{ include.rom_url }}{% endcapture %}
 
 {% if include.rom_index != '' and rom_url == '' %}
-	{% capture rom_url %}https://gamingshitposting.github.io/ext-bin-1/roms/{{ include.rom_index }}.nes.7z{% endcapture %}
+	{% capture rom_url %}https://gamingshitposting.github.io/ext-bin-1/roms/{{ include.rom_index }}.7z{% endcapture %}
+{% endif %}
+
+{% if include.platform == 'psx' %}
+	<script id="ChromiumReccomendationElement">
+		isChromium = false;
+		if (navigator.userAgentData && navigator.userAgentData.brands) {
+			navigator.userAgentData.brands.forEach(function(brand){
+				if (brand.brand == 'Chromium') {
+					isChromium = true;
+				}
+			});
+		}
+		if (!isChromium) {
+			document.getElementById('ChromiumReccomendationElement').outerHTML = `<p>
+				Note: a Chromium-based browser is recommended for {{ include.platform | upcase }} games. If you experience slowdowns, try <a href="https://chromium.woolyss.com/">getting Chromium</a>.
+			</p>`;
+		}
+	</script>
 {% endif %}
 
 <p>
-{% if include.backend == 'emulatorjs' or include.platform == 'nes' %}
+{% if include.backend == 'emulatorjs' or include.platform == 'nes' or include.platform == 'psx' %}
 	<div style="width:640px; height:480px; max-width:100%">
 		<div id="GameFrame"></div>
 	</div>
