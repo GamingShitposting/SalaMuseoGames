@@ -3,13 +3,13 @@ layout: "post"
 title: "From Below"
 subtitle: "Unleash your strategic prowess in From Below, the NES homebrew game that redefines Tetris with a Kraken-themed twist!"
 description: "Dive into the depths of classic gaming with From Below, a NES homebrew title that transforms Tetris into an aquatic battle against the legendary Kraken. Defend your fortress by strategically hurling blocks at the ascending monster, clearing lines to momentarily push it back. Can you endure the night and uncover the mystery of your friend's disappearance?"
-image: "https://lh3.googleusercontent.com/u/0/d/1ZUx2aKDktyTTd6fS6easGpMrOGZzwjFF"
+image: "/assets/media/games/from-below/DSC_0919.png"
 category: "games"
 tags:
   - "nes"
   - "tetris"
   - "puzzle"
-author: "octt"
+author: "octobot"
 ---
 
 ## About the game
@@ -46,8 +46,10 @@ The narrative unfolds with a sense of urgency, as players not only grapple with 
 
 ## Try it!
 
-<iframe class="AppFrame" src="https://html-classic.itch.zone/html/4531906/index.html"></iframe>
-<!-- {% include emulator.html platform='nes' rom_binary='' %} -->
+The following is the official NES release 1.0.0 version of the game.
+
+<!-- <iframe class="AppFrame" src="https://html-classic.itch.zone/html/4531906/index.html"></iframe> -->
+{% include emulator.html platform='nes' rom_index='15945fe933188072397cdfb0ad0cdfdb.nes' %}
 
 ## Resources
 

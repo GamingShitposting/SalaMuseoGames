@@ -5,7 +5,7 @@
 {% endif %}
 
 {% if include.platform == 'psx' %}
-	<script id="ChromiumReccomendationElement">
+	<p><script id="ChromiumReccomendationElement">
 		isChromium = false;
 		if (navigator.userAgentData && navigator.userAgentData.brands) {
 			navigator.userAgentData.brands.forEach(function(brand){
@@ -16,14 +16,14 @@
 		}
 		if (!isChromium) {
 			document.getElementById('ChromiumReccomendationElement').outerHTML = `<p>
-				Note: a Chromium-based browser is recommended for {{ include.platform | upcase }} games. If you experience slowdowns, try <a href="https://chromium.woolyss.com/">getting Chromium</a>.
+				Note: a Chromium-based browser is recommended for {{ include.platform | upcase }} games. If you experience slowdowns or jitters, <a href="https://download-chromium.appspot.com">get Chromium</a>. Alternatively, try dialing down the "pcsx rearmed psxclock" emulator setting.
 			</p>`;
 		}
-	</script>
+	</script></p>
 {% endif %}
 
 <p>
-{% if include.backend == 'emulatorjs' or include.platform == 'nes' or include.platform == 'psx' %}
+{% if include.backend == 'cuttingedge' or include.backend == 'emulatorjs' or include.platform == 'nes' or include.platform == 'psx' %}
 	<div style="width:640px; height:480px; max-width:100%">
 		<div id="GameFrame"></div>
 	</div>

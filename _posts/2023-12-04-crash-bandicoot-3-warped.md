@@ -12,7 +12,7 @@ tags:
   - "2.5d"
   - "playstation"
   - "exclusive"
-author: "octt"
+author: "octobot"
 ---
 
 ## About the game
@@ -37,4 +37,10 @@ In retrospect, Crash Bandicoot 3: Warped remains a cornerstone of the PlayStatio
 
 ## Try it!
 
+The following is the official PS1 public demo version of the game.
+
 {% include emulator.html platform='psx' rom_index='SCUS_94289.chd' %}
+
+## Resources
+
+* Cover image credits: <https://moviegalorestore.com>
