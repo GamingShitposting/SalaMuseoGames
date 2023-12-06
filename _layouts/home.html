@@ -53,19 +53,19 @@ layout: main
                     <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
                         {% include loader.html %}
                         {% if post.optimized_image %}
-                            <img src="/assets/img/placeholder.png" width="100%" data-url="{{ post.optimized_image }}" class="preload">
+                            <img src="{{ site.baseurl }}/assets/img/placeholder.png" width="100%" data-url="{{ post.optimized_image }}" class="preload">
                             <noscript>
                                 <img src="{{ post.optimized_image }}" width="100%">
                             </noscript>
                         {% elsif post.image %}
-                            <img src="/assets/img/placeholder.png" width="100%" data-url="{{ post.image }}" class="preload">
+                            <img src="{{ site.baseurl }}/assets/img/placeholder.png" width="100%" data-url="{% if post.image_source == 'internal' %}{{ site.baseurl }}{% endif %}{{ post.image }}" class="preload">
                             <noscript>
-                                <img src="{{ post.image }}" width="100%">
+                                <img src="{% if post.image_source == 'internal' %}{{ site.baseurl }}{% endif %}{{ post.image }}" width="100%">
                             </noscript>
                         {% else %}
-                            <img src="/assets/img/placeholder.png" width="100%" data-url="/assets/img/off.jpg" class="preload">
+                            <img src="{{ site.baseurl }}/assets/img/placeholder.png" width="100%" data-url="{{ site.baseurl }}/assets/img/off.jpg" class="preload">
                             <noscript>
-                                <img src="/assets/img/off.jpg" width="100%">
+                                <img src="{{ site.baseurl }}/assets/img/off.jpg" width="100%">
                             </noscript>
                         {% endif %}
                         {% include new-post-tag.html date=post.date %}

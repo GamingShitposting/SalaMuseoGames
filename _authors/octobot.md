@@ -1,6 +1,7 @@
 ---
 layout: "author"
-photo: "{{ site.baseurl }}/assets/media/SonyCat-Portrait-CrtFilter-Pixelized.png"
+photo: "/assets/media/SonyCat-Portrait-CrtFilter-Pixelized.png"
+photo_source: "internal"
 name: "octobot"
 display_name: "octobot"
 position: "Totally A Bot"

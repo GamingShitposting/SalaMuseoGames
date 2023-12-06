@@ -4,7 +4,7 @@ layout: page
 
 <div class="staff">
   {% if page.photo %}
-    <img class="img-rounded" src="{{ page.photo }}" alt="{{ author.display_name }}">
+    <img class="img-rounded" src="{% if page.photo_source == 'internal' %}{{ site.baseurl }}{% endif %}{{ page.photo }}" alt="{{ author.display_name }}">
   {% else %}
     <img class="img-rounded" src="/assets/img/user.jpg" alt="{{ author.display_name }}">
   {% endif %}
