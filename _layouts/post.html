@@ -48,7 +48,7 @@
                                     {% elsif post.image %}
                                         <img src="{% if post.image_source == 'internal' %}{{ site.baseurl }}{% endif %}{{ post.image }}">
                                     {% else %}
-                                        <img src="/assets/img/off.jpg">
+                                        <img src="{{ site.baseurl }}/assets/img/off.jpg">
                                     {% endif %}
                                     <h3>{{ post.title }}</h3>
                                 </a>
