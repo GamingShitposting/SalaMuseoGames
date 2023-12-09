@@ -29,7 +29,7 @@
 	</div>
 	<script type="text/javascript">
 		EJS_player = '#GameFrame';
-		EJS_core = '{{ include.platform }}';
+		EJS_core = '{% if include.emulator == '' %}{{ include.platform }}{% else %}{{ include.emulator }}{% endif %}';
 		EJS_gameUrl = '{{ rom_url }}';
 		EJS_pathtodata = 'https://gamingshitposting.github.io/ext-bin-1/EmulatorJS/data/';
 	</script>
