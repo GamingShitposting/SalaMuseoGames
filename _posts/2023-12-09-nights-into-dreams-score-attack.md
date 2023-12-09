@@ -40,4 +40,4 @@ In conclusion, NiGHTS into Dreams - Score Attack for the Game Boy Advance succes
 
 The following is the GBA MultiBoot version of the game.
 
-{% include emulator.html backend='cuttingedge' platform='gba' emulator='mgba' rom_index='.gba' %}
+{% include emulator.html backend='cuttingedge' platform='gba' emulator='mgba' rom_index='NIGHTS-AGBT8P.gba' %}
