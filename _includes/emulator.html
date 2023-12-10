@@ -27,13 +27,21 @@
 	<div style="width:640px; height:480px; max-width:100%">
 		<div id="GameFrame"></div>
 	</div>
+	<!-- TODO: add menu to change options -->
 	<script type="text/javascript">
 		EJS_player = '#GameFrame';
 		EJS_core = '{% if include.emulator == '' %}{{ include.platform }}{% else %}{{ include.emulator }}{% endif %}';
 		EJS_gameUrl = '{{ rom_url }}';
 		EJS_pathtodata = 'https://gamingshitposting.github.io/ext-bin-1/EmulatorJS/data/';
+		EJS_screenRecording = { videoBitrate: 150000000 };
 	</script>
 	<script src="https://gamingshitposting.github.io/ext-bin-1/EmulatorJS/data/loader.js"></script>
+{% elisif include.platform == 'dos' %}
+	<button onclick="(function(ctx){
+		ctx.parentElement.scrollIntoView();
+		ctx.parentElement.querySelector('iframe.AppFrame').focus();
+	})(this)">Focus</button>
+	<iframe class="AppFrame" src="https://gamingshitposting.github.io/ext-bin-1/dos.zone/{{ rom_index }}/index.html"></iframe>
 {% else %}
 	<button onclick="(function(ctx){
 		ctx.parentElement.scrollIntoView();
