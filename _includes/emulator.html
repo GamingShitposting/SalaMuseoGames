@@ -36,7 +36,7 @@
 		EJS_screenRecording = { videoBitrate: 150000000 };
 	</script>
 	<script src="https://gamingshitposting.github.io/ext-bin-1/EmulatorJS/data/loader.js"></script>
-{% elisif include.platform == 'dos' %}
+{% elsif include.platform == 'dos' %}
 	<button onclick="(function(ctx){
 		ctx.parentElement.scrollIntoView();
 		ctx.parentElement.querySelector('iframe.AppFrame').focus();
