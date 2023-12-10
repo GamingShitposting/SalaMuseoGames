@@ -30,7 +30,7 @@
 	<!-- TODO: add menu to change options -->
 	<script type="text/javascript">
 		EJS_player = '#GameFrame';
-		EJS_core = '{% if include.emulator == '' %}{{ include.platform }}{% else %}{{ include.emulator }}{% endif %}';
+		EJS_core = ('{{ include.emulator }}' || '{{ include.platform }}');
 		EJS_gameUrl = '{{ rom_url }}';
 		EJS_pathtodata = 'https://gamingshitposting.github.io/ext-bin-1/EmulatorJS/data/';
 		EJS_screenRecording = { videoBitrate: 150000000 };
