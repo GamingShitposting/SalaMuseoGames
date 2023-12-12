@@ -19,8 +19,8 @@ software_data:
   rom_index  : GOLDENAXEIII-GM-00004093-00.md
   release    :
     region   : Japan
-	source   : official
-	type     : retail
+    source   : official
+    type     : retail
 ---
 
 ## About the game
