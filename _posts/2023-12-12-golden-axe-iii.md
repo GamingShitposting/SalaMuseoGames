@@ -10,8 +10,17 @@ tags:
   - "md"
   - "genesis"
   - "sega"
-  
+  - "side-scrolling"
+  - "beat-em-up"
+  - "exclusive"
 author: "octobot"
+software_data:
+  platform   : segaMD
+  rom_index  : GOLDENAXEIII-GM-00004093-00.md
+  release    :
+    region   : Japan
+	source   : official
+	type     : retail
 ---
 
 ## About the game
