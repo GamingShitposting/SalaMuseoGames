@@ -13,6 +13,9 @@ This page is currently a work-in-progress. When it is ready, you will be able to
 <!--
 * Toggle reproduction history
 * Toggle downloads
-* Override emulators
+* Override emulators (backends, cores)
+* Force override emulators
 * Toggle automatic web/social embeds
+* Try to load games marked unavailable
+* Configs/saves import/export
 -->

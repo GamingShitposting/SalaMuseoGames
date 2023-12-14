@@ -105,5 +105,9 @@
 		window.site_config = {
 			baseurl: "{{ site.baseurl }}",
 		};
+		window.page_config = {
+			software_data: {{ page.software_data | jsonify }},
+		};
+		window.SalaMuseoGames = { site: site_config, page: page_config };
 	</script>
 </head>

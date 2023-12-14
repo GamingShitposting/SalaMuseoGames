@@ -2,6 +2,7 @@
 name: "Sala Museo Games"
 title: "Sala Museo Games | Where art is your new play"
 description: "Sala Museo Games invites you to explore the interactive realm where gaming meets art. Immerse yourself in a curated collection of timeless video games, seamlessly playable online. Rediscover classics and embrace new adventures—where every click is a brushstroke in the canvas of digital entertainment. Welcome to the Museum Room, where art is your new play."
+footer_note: {% include footer-note.html %}
 tags:
   - "blog"
   - "games"
@@ -27,13 +28,11 @@ date_format: "%Y.%m.%d"
 github_username: "GamingShitposting"
 telegram_username: "gamingshitpost"
 
-
 # Posts Settings
 show_time_bar: false
 show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
-
 
 # Advanced Settings
 baseurl: "/SalaMuseoGames" # the subpath of your site, e.g. /blog
@@ -41,7 +40,6 @@ url: "https://gamingshitposting.github.io" # the base hostname & protocol for yo
 language: "en"
 categories_folder: "category"
 sent_message_url: "/contact/message-sent/"
-
 
 # Build settings
 markdown: kramdown
