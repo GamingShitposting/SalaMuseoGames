@@ -19,12 +19,12 @@
 			window.EJS_gameUrl = romUrl;
 			window.EJS_screenRecording = { videoBitrate: 150000000 };
 			var frameElement = document.createElement('div');
-			frameElement.outerHTML = `<div style="width:640px; height:480px; max-width:100%">
-				<div id="software-embed-frame"></div>
-			</div>`;
+			frameElement.style = 'width: 640px; height: 480px; max-width: 100%;';
+			frameElement.innerHTML = '<div id="software-embed-frame"></div>';
 			thisElement.parentElement.appendChild(frameElement);
-			thisElement.innerHTML = '';
-			thisElement.src = EJS_pathtodata+'loader.js';
+			var scriptElement = document.createElement('script');
+			scriptElement.src = EJS_pathtodata+'loader.js';
+			document.body.appendChild(scriptElement);
 		break;
 		case 'standalone':
 			thisElement.outerHTML = `<iframe id="software-embed-frame" src=""></iframe>`;
