@@ -11,8 +11,7 @@ tags:
   - "arcade"
   - "jaleco"
   - "racing"
-  - "beat-em-up"
-  - "exclusive"
+  - "platforming"
 author: "octobot"
 software_data:
   platform   : nes
