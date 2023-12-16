@@ -27,7 +27,19 @@
 			document.body.appendChild(scriptElement);
 		break;
 		case 'standalone':
-			thisElement.outerHTML = `<iframe id="software-embed-frame" src=""></iframe>`;
+			var frameUrl = '';
+			if (platform === 'nds' || core === 'desmume') {
+				frameUrl = `https://octospacc.gitlab.io/Web-Archives-Misc/Repo/DeSmuME/#RomUrl=${romUrl}`;
+			}
+			else if (platform === 'dos') {
+				frameUrl = `https://gamingshitposting.github.io/ext-bin-1/dos.zone/${data.rom_index}/index.html`;
+			}
+			thisElement.outerHTML = `
+			<button onclick="(function(ctx){
+				ctx.parentElement.scrollIntoView();
+				ctx.parentElement.querySelector('iframe#software-embed-frame').focus();
+			})(this)">Focus</button>
+			<iframe id="software-embed-frame" src="${frameUrl}"></iframe>`;
 		break;
 	}
 })();
