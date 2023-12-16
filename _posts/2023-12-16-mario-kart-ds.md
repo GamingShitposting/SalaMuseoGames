@@ -19,7 +19,7 @@ software_data:
   core       : desmume
   backend    : standalone
   rom_index  : MARIOKARTDS-A39J01.nds
-  rom_url    : https://octospacc.gitlab.io/Web-Archives-Misc/Repo/DeSmuME/#RomUrl=https://octospacc.gitlab.io/ROMs-Archive-Misc/MARIOKARTDS-A39J01.nds
+  rom_url    : https://octospacc.gitlab.io/ROMs-Archive-Misc/MARIOKARTDS-A39J01.nds
   release    :
     region   : Japan
     source   : official
