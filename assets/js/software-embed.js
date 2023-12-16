@@ -2,7 +2,7 @@
 	var thisElement = document.querySelector(`script[src="${SalaMuseoGames.site.baseurl}/assets/js/software-embed.js"]`);
 	var data = SalaMuseoGames.page.software_data;
 	var platform = data.platform;
-	var core = data.platform;
+	var core = data.core;
 	var backend = data.backend;
 	var romUrl = (data.rom_url || 'https://gamingshitposting.github.io/ext-bin-1/roms/'+data.rom_index+'.7z');
 	
