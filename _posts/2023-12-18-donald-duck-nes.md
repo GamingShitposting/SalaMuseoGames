@@ -2,7 +2,7 @@
 layout: "post"
 title: "Donald Duck (NES)"
 subtitle: "Embark on a Quack-tastic Adventure: Donald Duck's NES Quest"
-description: "Dive into the pixelated world of "Donald Duck" on the Nintendo Entertainment System, where players join the iconic Disney character on a whimsical journey filled with platforming challenges, cartoonish antics, and classic 8-bit charm."
+description: "Dive into the pixelated world of Donald Duck on the Nintendo Entertainment System, where players join the iconic Disney character on a whimsical journey filled with platforming challenges, cartoonish antics, and classic 8-bit charm."
 image: "/assets/media/games/donald-duck-nes/1305200200093.JPG"
 image_source: "internal"
 category: "games"
