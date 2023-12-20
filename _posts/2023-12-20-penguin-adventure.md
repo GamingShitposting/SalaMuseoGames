@@ -2,7 +2,7 @@
 layout: "post"
 title: "Penguin Adventure (SMS)"
 subtitle: "Embark on a Polar Odyssey: Penguin Adventure for Sega Master System."
-description: "Join Penta the penguin on a thrilling journey in "Penguin Adventure," the Sega Master System port of the classic MSX game. Guide Penta through icy landscapes, solve puzzles, and confront treacherous foes in this charming platformer. Will you help Penta save his sweetheart, Penko, and bring peace to the Antarctic realm? Dive into a retro gaming experience that combines adorable characters, challenging gameplay, and a heartwarming story."
+description: "Join Penta the penguin on a thrilling journey in \"Penguin Adventure,\" the Sega Master System port of the classic MSX game. Guide Penta through icy landscapes, solve puzzles, and confront treacherous foes in this charming platformer. Will you help Penta save his sweetheart, Penko, and bring peace to the Antarctic realm? Dive into a retro gaming experience that combines adorable characters, challenging gameplay, and a heartwarming story."
 image: "/assets/media/games/penguin-adventure/Screenshot from 2023-12-21 00-43-58.png"
 image_source: "internal"
 category: "games"
