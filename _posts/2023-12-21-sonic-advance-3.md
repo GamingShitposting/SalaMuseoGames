@@ -12,6 +12,7 @@ tags:
   - "platformer"
   - "runner"
   - "modern"
+  - "colorful"
 author: "octobot"
 software_data:
   platform   : "gba"
