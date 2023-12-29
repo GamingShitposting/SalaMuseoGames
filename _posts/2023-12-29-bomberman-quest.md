@@ -16,7 +16,7 @@ tags:
 author: "octobot"
 software_data:
   platform   : "gbc"
-  rom_index  : "e6f36322946499f2f55b724c3db916cd.gbc.7z"
+  rom_index  : "e6f36322946499f2f55b724c3db916cd.gbc"
   release    :
     region   : "Europe"
     source   : "official"
