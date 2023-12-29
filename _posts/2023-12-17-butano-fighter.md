@@ -17,7 +17,7 @@ software_data:
   platform   : gba
   rom_index  : butano-fighter.gba
   release    :
-    region   : ""
+    region   : "Global"
     source   : homebrew
     type     : release
 ---
