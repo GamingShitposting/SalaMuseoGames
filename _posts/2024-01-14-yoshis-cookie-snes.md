@@ -2,7 +2,7 @@
 layout: "post"
 title: "Yoshi's Cookie (SNES)"
 subtitle: "Embark on a Puzzling Culinary Adventure with \"Yoshi's Cookie\" Remake!"
-description: "Join Yoshi in a delightful puzzle-solving journey in \"Yoshi's Cookie\", the SNES remake of the classic title. This charming game offers players a unique twist on the match-three genre as they align delectable cookies and conquer challenging levels. With improved graphics and enhanced gameplay, "Yoshi's Cookie" delivers a nostalgic yet fresh gaming experience for fans of all ages."
+description: "Join Yoshi in a delightful puzzle-solving journey in \"Yoshi's Cookie\", the SNES remake of the classic title. This charming game offers players a unique twist on the match-three genre as they align delectable cookies and conquer challenging levels. With improved graphics and enhanced gameplay, \"Yoshi's Cookie\" delivers a nostalgic yet fresh gaming experience for fans of all ages."
 image: "/assets/media/games/yoshis-cookie-snes/sewfZ0G8yh0.jpg"
 image_source: "internal"
 category: "games"
