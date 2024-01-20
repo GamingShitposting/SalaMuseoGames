@@ -1,4 +1,8 @@
 <footer>
+	<div class="nojs-menu">
+		{% include links.html %}
+	</div>
+
     <p>
       {% if site.github_username %}
         <a href="https://github.com/{{ site.github_username }}" title="Github">
@@ -70,6 +74,8 @@
 
 <!-- Include the website scripts -->
 <script src="{{ '/assets/js/scripts.min.js' | prepend: site.baseurl }}"></script>
+
+<script> document.querySelector('footer > div.nojs-menu').remove(); </script>
 
 <!-- Include Google Analytics script -->
 {% include stats.html %}
