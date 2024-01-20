@@ -44,5 +44,5 @@ In conclusion, Tetris Flash exemplifies the perfect blend of tradition and innov
 
 ## Resources
 
-* Official page of the game; Cover image credits: <https://vgmdb.net/release/17799>
+* Cover image credits: <https://vgmdb.net/release/17799>
 

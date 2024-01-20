@@ -45,5 +45,5 @@ The legacy of "Yoshi's Cookie" extends beyond its initial release, as the game h
 
 ## Resources
 
-* Official page of the game; Cover image credits: <https://www.youtube.com/watch?v=sewfZ0G8yh0>
+* Cover image credits: <https://www.youtube.com/watch?v=sewfZ0G8yh0>
 
