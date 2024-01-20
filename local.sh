@@ -2,10 +2,12 @@
 cd "$( dirname "$( realpath "$0" )" )"
 
 [ "$1" = "update" ] && \
-	git add . && git commit -m ": $2" && git push
+	Message="$( [ -n "$2" ] && echo "$2" || cat .CommitMessage.txt )"
+	git add . && git commit -m ": ${Message}" && git push
 
 [ "$1" = "newpost" ] && [ -n "$2" ] && [ -n "$3" ] && \
 	mkdir -p "./assets/media/games/$2" && \
+	echo "Add $2 [$3]" > .CommitMessage.txt && \
 	cat << [EOF] > "./_posts/$3-$2.md"
 ---
 layout: "post"
