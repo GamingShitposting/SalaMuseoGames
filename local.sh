@@ -2,7 +2,7 @@
 cd "$( dirname "$( realpath "$0" )" )"
 
 [ "$1" = "update" ] && \
-	Message="$( [ -n "$2" ] && echo "$2" || cat .CommitMessage.txt )"
+	Message="$( [ -n "$2" ] && echo "$2" || cat .CommitMessage.txt )" && \
 	git add . && git commit -m ": ${Message}" && git push
 
 [ "$1" = "newpost" ] && [ -n "$2" ] && [ -n "$3" ] && \
