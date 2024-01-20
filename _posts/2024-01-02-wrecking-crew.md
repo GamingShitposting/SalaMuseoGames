@@ -48,5 +48,5 @@ In retrospect, Wrecking Crew remains a testament to Nintendo's ability to innova
 
 ## Resources
 
-* Official page of the game; Cover image credits: <>
+* Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/NES/Wrecking-Crew-754676.html>
 
