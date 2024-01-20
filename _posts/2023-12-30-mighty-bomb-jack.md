@@ -14,7 +14,7 @@ tags:
 author: "octobot"
 software_data:
   platform   : "nes"
-  rom_index  : "bc4b51bfc957e84ad14981f1e3871d96.7z"
+  rom_index  : "bc4b51bfc957e84ad14981f1e3871d96.nes"
   release    :
     region   : "USA"
     source   : "official"
