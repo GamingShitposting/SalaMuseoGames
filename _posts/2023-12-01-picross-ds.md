@@ -12,6 +12,14 @@ tags:
   - "nonogram"
   - "puzzle"
 author: "octobot"
+software_data:
+  platform   : "nds"
+  core       : "desmume"
+  backend    : "standalone"
+  rom_url    : "https://octospacc.gitlab.io/ROMs-Archive-Misc/Picross-DS-Demo.nds"
+  release    :
+    source   : "official"
+    type     : "kiosk demo"
 ---
 
 ## About the game
@@ -25,12 +33,6 @@ Picross DS caters to players of all skill levels, featuring puzzles that range f
 One of the standout features of Picross DS is its multiplayer functionality, adding a sociable aspect to the solitary nature of puzzle-solving. Friends can join forces to conquer cooperative puzzles or engage in head-to-head competitions, fostering a sense of camaraderie and friendly rivalry. This multiplayer dimension sets Picross DS apart, transforming it into a communal experience that extends beyond individual gameplay sessions.
 
 With its timeless appeal, Picross DS continues to be celebrated as a classic within the Nintendo DS library. Its enduring popularity is a testament to the enduring allure of nonogram puzzles and the masterful execution of the genre by Jupiter Corporation. Whether played for a few minutes of casual relaxation or dedicated hours of strategic engagement, Picross DS remains a definitive title in the world of handheld puzzle gaming.
-
-## Try it!
-
-The following is the official NDS public demo version of the game.
-
-{% include emulator.html platform='nds' rom_binary='https://octospacc.gitlab.io/ROMs-Archive-Misc/Picross-DS-Demo.nds' %}
 
 ## Resources
 

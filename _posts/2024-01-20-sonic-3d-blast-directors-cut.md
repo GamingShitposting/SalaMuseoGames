@@ -37,10 +37,6 @@ Furthermore, "Sonic 3D Blast: Director's Cut" features a reimagined soundtrack, 
 
 In summary, "Sonic 3D Blast: Director's Cut" stands as a testament to the enduring legacy of Sonic the Hedgehog. By marrying the beloved elements of the original game with modern enhancements, this Director's Cut offers a fresh and exciting take on a classic title. Whether you're a Sonic aficionado revisiting a cherished memory or a newcomer eager to experience one of the blue blur's early adventures, "Sonic 3D Blast: Director's Cut" promises an enhanced journey through isometric realms that captures the essence of Sonic's timeless appeal.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the hack; Cover image credits: <https://ttjontt.wixsite.com/gamehut/sonic-3d-blast-dx>, <https://www.romhacking.net/hacks/3810/>

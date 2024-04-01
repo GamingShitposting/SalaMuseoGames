@@ -38,10 +38,6 @@ Axbakk Games extends the holiday cheer by offering "Pinky Xmas" as a free gift t
 
 In conclusion, "Pinky Xmas" is not just a game; it's a heartfelt expression of the joy of giving during the holiday season. Axbakk Games, with the collaborative efforts of Takuikaninja, Googie, and Pacnsacdave, has created a pixelated masterpiece that captures the essence of Christmas in the form of a NES homebrew game. So, embrace the festive spirit, join Pinky on this holiday adventure, and experience the magic of Christmas in the retro realm of pixels and nostalgia. Merry Christmas and a Happy New Year from Axbakk and the entire Pinky crew! Cheers to the joy of classic gaming and the warmth of holiday memories.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://axbakk-games.itch.io/pinky-xmas-nes-homebrew>

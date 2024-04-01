@@ -43,10 +43,6 @@ In addition to its single-player adventure, Sonic Advance 3 offers a multiplayer
 
 In retrospect, Sonic Advance 3 stands as a testament to the enduring appeal of Sonic the Hedgehog in the handheld gaming realm. Its fusion of classic Sonic elements with innovative team mechanics delivers a gameplay experience that remains both challenging and enjoyable. Whether reliving the glory days of the GBA or discovering Sonic's adventures for the first time, Sonic Advance 3 invites players to embrace the speed, unravel the mysteries of Chao World, and prove that teamwork is the key to thwarting Dr. Eggman's latest machinations.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://www.youtube.com/watch?v=goc1Dfyi9ZQ>

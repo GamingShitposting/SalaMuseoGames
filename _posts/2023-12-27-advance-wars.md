@@ -41,10 +41,6 @@ Advance Wars garnered widespread acclaim upon its release, praised for its deep 
 
 In summary, Advance Wars for the Game Boy Advance stands as a testament to the brilliance of its design, offering a captivating blend of strategic depth, engaging storytelling, and visually appealing aesthetics. Whether reliving the campaign's epic battles or challenging friends in multiplayer skirmishes, players continue to embrace the timeless appeal of this classic title that has left an indelible mark on the world of handheld gaming.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/Game-Boy-Advance/Advance-Wars-866532.html>

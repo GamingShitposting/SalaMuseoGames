@@ -39,10 +39,6 @@ Super Mario Bros. 3 Alpha also embraces the spirit of community collaboration. W
 
 In conclusion, Super Mario Bros. 3 Alpha stands as a testament to the enduring legacy of classic video games and the passionate community that surrounds them. This hack rom seamlessly blends nostalgia with innovation, offering a reimagined journey through the Mushroom Kingdom that captivates and challenges players in equal measure. Whether you're a seasoned Mario veteran or a newcomer to the world of retro gaming, Super Mario Bros. 3 Alpha invites you to embark on a thrilling adventure that transcends the boundaries of time.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the hack; Cover image credits: <https://www.romhacking.net/hacks/8034/>

@@ -45,10 +45,6 @@ While Super Star Fox Weekend might have been a fleeting moment in gaming history
 
 In conclusion, Super Star Fox Weekend stands as a testament to the creative spirit of game developers in the early '90s. It successfully blended the classic appeal of the Star Fox series with a competitive edge, creating an unforgettable gaming experience that transcended the boundaries of traditional gameplay. For those fortunate enough to participate in this limited-time event, Super Star Fox Weekend remains a cherished memory—a time when the thrill of intergalactic dogfights and the joy of competition converged in an unforgettable weekend of gaming glory.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://snescentral.com/article.php?id=0942>

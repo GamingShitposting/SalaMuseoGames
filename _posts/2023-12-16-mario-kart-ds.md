@@ -42,10 +42,6 @@ Beyond the traditional Grand Prix and Time Trial modes, Mario Kart DS introduces
 
 Mario Kart DS successfully captures the essence of the series, delivering a portable gaming experience that is both nostalgic and innovative. With its charming graphics, catchy music, and a perfect blend of skill and chance, the game remains a favorite among DS owners and Mario Kart enthusiasts alike. Whether you're a seasoned racer or a newcomer to the world of Mario Kart, Mario Kart DS guarantees hours of entertainment and fierce competition, making it a timeless classic in the handheld gaming library.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game: <https://www.nintendo.co.uk/Games/Nintendo-DS/Mario-Kart-DS-271518.html>

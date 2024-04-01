@@ -31,11 +31,7 @@ software_data:
 
 ## About the game
 
-
-
-## Try it!
-
-{% include software-embed.html %}
+<!-- [...] -->
 
 ## Resources
 

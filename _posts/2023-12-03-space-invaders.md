@@ -12,6 +12,12 @@ tags:
   - "2d"
 author: "octobot"
 mobygames_id: 8806
+software_data:
+  platform   : "nes"
+  rom_index  : "26300f044b85b129ac41577cbff42a6f.nes"
+  release    :
+    source   : "official"
+    type     : "retail"
 ---
 
 ## About the game
@@ -25,12 +31,6 @@ Space Invaders' success lies in its perfect blend of strategy and reflexes. Play
 Beyond its gameplay, Space Invaders holds a special place in popular culture. The distinct sound effects, including the rhythmic marching of the alien invaders and the escalating tempo as they approach, have become iconic in the gaming world. The game's influence extends beyond the screen, inspiring countless other games and shaping the trajectory of the video game industry.
 
 In conclusion, Space Invaders for the NES stands as a testament to the enduring appeal of classic video games. Its straightforward yet challenging gameplay, coupled with its cultural impact, ensures that Space Invaders remains a cherished and celebrated title among gamers of all ages.
-
-## Try it!
-
-The following is the official NES retail version of the game.
-
-{% include emulator.html platform='nes' rom_index='26300f044b85b129ac41577cbff42a6f.nes' %}
 
 ## Resources
 

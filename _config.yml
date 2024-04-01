@@ -9,8 +9,10 @@ show_hero: true
 menu:
   - title: "Home"
     url: "/"
+  - title: "Configuration"
+    url: "/configuration/"
   - title: "About"
-    url: "/about"
+    url: "/about/"
   - title: "Contact"
     url: "https://github.com/GamingShitposting/SalaMuseoGames/issues/new/choose"
     type: "external"
@@ -77,6 +79,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
+  - jekyll-redirect-from
 
 # Exclude my node related stuff
 exclude: [

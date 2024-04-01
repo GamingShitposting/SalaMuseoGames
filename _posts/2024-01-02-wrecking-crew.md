@@ -42,10 +42,6 @@ Wrecking Crew's enduring legacy is evident in its influence on subsequent games 
 
 In retrospect, Wrecking Crew remains a testament to Nintendo's ability to innovate within the constraints of 8-bit technology. Its fusion of puzzle-solving and action elements laid the foundation for future games that would explore unconventional gameplay mechanics. For those who experienced the excitement of demolition with Mario on the NES, Wrecking Crew stands as a nostalgic reminder of a simpler yet profoundly captivating era in gaming history.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/NES/Wrecking-Crew-754676.html>

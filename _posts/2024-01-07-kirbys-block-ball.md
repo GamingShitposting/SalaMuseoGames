@@ -40,10 +40,6 @@ The audio design in Kirby's Block Ball complements the gameplay with catchy tune
 
 In conclusion, Kirby's Block Ball stands as a shining example of how the Kirby series can successfully venture into different genres while maintaining its core identity. The game's combination of clever level design, engaging mechanics, and the beloved Kirby character creates a captivating experience for players of all ages. Whether you're a fan of puzzle games, the Kirby series, or simply looking for a delightful and challenging gaming experience, Kirby's Block Ball is a must-play title that continues to charm retro gaming enthusiasts to this day.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://altarofgaming.com/game/kirbys-block-ball/>

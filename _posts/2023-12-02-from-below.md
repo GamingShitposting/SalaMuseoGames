@@ -11,6 +11,14 @@ tags:
   - "tetris"
   - "puzzle"
 author: "octobot"
+software_data:
+  platform   : "nes"
+  rom_index  : "15945fe933188072397cdfb0ad0cdfdb.nes"
+  # platform: "web"
+  # embed_url: "https://html-classic.itch.zone/html/4531906/index.html"
+  release    :
+    source   : "aftermarket"
+    type     : "release v1.0.0"
 ---
 
 ## About the game
@@ -44,13 +52,6 @@ The narrative unfolds with a sense of urgency, as players not only grapple with 
 ## Instructions
 
 <img src="https://img.itch.zone/aW1nLzQ2MTM5MzEucG5n/original/UmerGz.png"/>
-
-## Try it!
-
-The following is the official NES release 1.0.0 version of the game.
-
-<!-- <iframe class="AppFrame" src="https://html-classic.itch.zone/html/4531906/index.html"></iframe> -->
-{% include emulator.html platform='nes' rom_index='15945fe933188072397cdfb0ad0cdfdb.nes' %}
 
 ## Resources
 

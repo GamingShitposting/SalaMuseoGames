@@ -35,10 +35,6 @@ The sound design in Mighty Final Fight complements the visual experience, with a
 
 Despite being a scaled-down adaptation, Mighty Final Fight successfully captures the essence of its arcade predecessors. It offers a satisfying blend of challenging gameplay, memorable characters, and a distinctive art style that continues to resonate with retro gaming enthusiasts. Whether revisiting this classic or discovering it for the first time, Mighty Final Fight remains a testament to the enduring appeal of 8-bit gaming and the creativity of developers during the NES era.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/NES/Mighty-Final-Fight-923474.html>

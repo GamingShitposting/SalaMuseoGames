@@ -38,10 +38,6 @@ The soundtrack of "Butano Fighter" complements the on-screen action with a dynam
 
 In conclusion, "Butano Fighter" stands as a testament to the creativity and passion of the homebrew gaming community. With its captivating visuals, challenging gameplay, and a soundtrack that fuels the adrenaline, this tactical shoot-em-up for the Game Boy Advance offers a nostalgic yet contemporary gaming experience. Strap in, pilot your spacecraft, and prepare for a colorful odyssey filled with explosive encounters and relentless adversaries. Can you survive the chaos and emerge as the ultimate Butano Fighter?
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://gvaliente.itch.io/butano-fighter>

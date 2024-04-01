@@ -14,6 +14,15 @@ tags:
   - "isometric"
   - "detailed"
 author: "octobot"
+redirect_from:
+  - /2023/12/11/super-mario-rpg-legend-of-the-seven-stars-Copy/
+software_data:
+  platform   : "snes"
+  rom_index  : "d0b68d68d9efc0558242f5476d1c5b81.sfc"
+  release    :
+    region   : "USA"
+    source   : "official"
+    type     : "retail"
 ---
 
 ## About the game
@@ -33,12 +42,6 @@ The exploration of the Mushroom Kingdom is a delight, featuring diverse landscap
 Complementing the game's rich narrative and engaging gameplay is Yoko Shimomura's stellar musical score. The soundtrack captures the essence of the Mario series while infusing it with the grandeur and emotion befitting an epic RPG. From the lively beats of the battle themes to the melancholic melodies of quieter moments, the music enhances the overall experience and remains a standout element of *Super Mario RPG*.
 
 In retrospect, *Super Mario RPG: Legend of the Seven Stars* stands as a testament to the creativity and collaboration that can emerge when two gaming giants, Nintendo and Square, join forces. Its enduring legacy is evident in the fond memories of players who experienced the game during its initial release and the new generations discovering its magic through digital platforms. As Mario and his friends triumph over Smithy, restoring peace to the Mushroom Kingdom, *Super Mario RPG* cements its place in gaming history as a cherished classic that seamlessly blended the whimsy of the Mario universe with the depth of a role-playing epic.
-
-## Try it!
-
-The following is the official SNES USA retail version of the game.
-
-{% include emulator.html platform='snes' rom_index='d0b68d68d9efc0558242f5476d1c5b81.sfc' %}
 
 ## Resources
 

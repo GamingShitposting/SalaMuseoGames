@@ -35,10 +35,6 @@ The visual aesthetics of Mighty Bomb Jack reflect the 8-bit charm of the NES era
 
 Mighty Bomb Jack remains a hallmark of NES gaming, leaving an indelible mark on the hearts of those who ventured through its pyramidal maze. Its enduring popularity is a testament to the enduring appeal of classic platformers, and it continues to captivate both nostalgic gamers and a new generation seeking the magic of 8-bit adventures. With its combination of tight controls, imaginative level design, and a dash of pixelated magic, Mighty Bomb Jack stands tall among the NES greats, an enduring testament to the craftsmanship of a bygone era in gaming history.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/NES/Mighty-Bomb-Jack--653597.html>

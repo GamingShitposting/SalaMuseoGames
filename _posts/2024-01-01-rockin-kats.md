@@ -40,10 +40,6 @@ One of the standout features of "Rockin' Kats" is its thematic coherence. The ga
 
 In conclusion, "Rockin' Kats" remains a hidden gem in the NES catalog, offering a delightful combination of classic platforming, inventive mechanics, and a unique musical aesthetic. With its charming protagonist, catchy soundtrack, and well-designed levels, the game provides a memorable and enjoyable experience for fans of the platformer genre. Whether you're a retro gaming enthusiast or a newcomer to classic NES titles, "Rockin' Kats" is a title that deserves recognition for its creativity and entertainment value."
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://www.youtube.com/watch?v=rTWqZobTeHQ>

@@ -37,10 +37,6 @@ Super Mario Land's impact extends beyond its critical and commercial success. It
 
 Reflecting on Super Mario Land's enduring legacy, it's clear that Gunpei Yokoi's vision and Nintendo's commitment to innovation have left an indelible mark on the gaming landscape. The game's success on the Game Boy paved the way for the continued evolution of portable gaming, setting the stage for handheld consoles to become an integral part of the gaming industry. As players continue to rediscover the joy of Super Mario Land on various platforms, its status as a classic and influential title remains firmly intact.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/Game-Boy/Super-Mario-Land-275902.html>

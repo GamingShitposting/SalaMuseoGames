@@ -29,6 +29,10 @@
 
                 {% include toc.html %}
 
+                {% if page.software_data %}
+                    {% include software-embed.html %}
+                {% endif %}
+
                 {{ content }}
 
                 {% include pagination-post.html %}

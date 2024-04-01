@@ -38,10 +38,6 @@ Despite its seemingly straightforward premise, DuckTales boasts a level of diffi
 
 In conclusion, DuckTales for the NES is a testament to the brilliance of classic platformers. Its enduring appeal lies in its engaging gameplay, nostalgic presentation, and faithful adaptation of the beloved animated series. Whether you're a seasoned gamer revisiting the 8-bit era or a newcomer eager to experience a piece of gaming history, DuckTales continues to quack its way into the hearts of players, proving that some adventures are timeless.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://www.nintendoblast.com.br/2019/09/ducktales-nes-30-anos-classico-bftp-review.html>

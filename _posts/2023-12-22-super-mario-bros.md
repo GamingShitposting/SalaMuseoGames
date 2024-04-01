@@ -39,10 +39,6 @@ The cultural impact of "Super Mario Bros." cannot be overstated. The game's succ
 
 As the years have passed, "Super Mario Bros." has not faded into obscurity; instead, it has earned its place as a timeless masterpiece. It continues to be celebrated through re-releases, remasters, and homage in other media. The game's influence on game design can be seen in countless titles that followed, and its enduring popularity attests to its status as a cultural touchstone. "Super Mario Bros." stands as a testament to the transformative power of video games, proving that a simple plumber's journey can resonate across generations, bringing joy to millions and defining the very essence of what makes gaming an art form.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game: <https://www.nintendo.co.uk/Games/NES/Super-Mario-Bros-803853.html>

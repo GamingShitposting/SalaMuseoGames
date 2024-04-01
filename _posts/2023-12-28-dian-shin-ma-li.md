@@ -41,10 +41,6 @@ Despite its unorthodox origins, Fortran boasts a dedicated fan base drawn to its
 
 In conclusion, Fortran, or "Dian Shin Ma Li," stands as a testament to the resilience and creativity of rogue game developers. Its bootleg nature, combined with its gambling-centric gameplay, creates a unique and unforgettable gaming experience. For those fortunate enough to secure a copy, Fortran represents a journey into the hidden corners of gaming history, where the thrill of uncertainty and the allure of the forbidden converge in an 8-bit masterpiece.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://www.deviantart.com/randyproject/art/Dian-shi-Ma-Li-TV-Mary-Wallpaper-815492461>

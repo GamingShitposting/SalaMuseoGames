@@ -39,10 +39,6 @@ The NES controller becomes an extension of the player's will as they guide Donal
 
 In conclusion, "Donald Duck" for the NES stands as a classic example of 8-bit gaming nostalgia. Its enduring appeal lies in its engaging gameplay, charming visuals, and the timeless allure of Disney magic. Whether you're a seasoned gamer revisiting the classics or introducing the joy of retro gaming to a new generation, "Donald Duck" promises a delightful journey through a pixelated world filled with adventure, laughter, and the unmistakable quack of everyone's favorite duck.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://www.ebay.com/itm/DONALD-DUCK-Disney-Famicom-Nintendo-bdc-fc-/302166019320>

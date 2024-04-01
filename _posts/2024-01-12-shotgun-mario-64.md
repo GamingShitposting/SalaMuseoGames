@@ -40,10 +40,6 @@ While Shotgun Mario 64 undeniably introduces a novel and thrilling twist to the 
 
 In conclusion, Shotgun Mario 64 stands as a testament to the enduring legacy of Super Mario 64 and the creative potential within the gaming community. By introducing a shotgun into Mario's hands, this rom hack elevates the beloved classic into a high-stakes adventure, offering players a fresh perspective on a timeless journey. Whether you're a seasoned Super Mario veteran or a newcomer to the Mushroom Kingdom, Shotgun Mario 64 invites you to rediscover the magic of Mario in a way you've never experienced before.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the hack: <https://romhacking.com/hack/shotgun-mario-64>

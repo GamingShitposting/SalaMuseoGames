@@ -38,10 +38,6 @@ The game's audiovisual presentation complements its gameplay seamlessly. The soo
 
 As a standout title for the Game Boy Advance, Polarium Advance holds a special place in the hearts of puzzle enthusiasts. Its blend of accessibility, depth, and replayability cements its status as a classic in the handheld gaming library. Whether you're a seasoned puzzle veteran or a newcomer looking for a mentally stimulating challenge, Polarium Advance offers an experience that stands the test of time.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/Game-Boy-Advance/Polarium-Advance-298284.html#Overview>

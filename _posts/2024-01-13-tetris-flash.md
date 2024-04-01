@@ -38,10 +38,6 @@ Tetris Flash also introduces an array of customization options, allowing players
 
 In conclusion, Tetris Flash exemplifies the perfect blend of tradition and innovation, capturing the essence of the original while injecting new life into the iconic puzzle game. With its captivating visuals, strategic gameplay enhancements, and social multiplayer features, Tetris Flash remains a testament to the enduring appeal of Tetris on the NES platform, inviting players to experience the magic of falling blocks in a fresh and exhilarating way.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://vgmdb.net/release/17799>

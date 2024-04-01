@@ -39,10 +39,6 @@ Boss battles serve as climactic moments in the game, pitting Yoshi against formi
 
 The legacy of "Yoshi's Cookie" extends beyond its initial release, as the game has become a classic that continues to be enjoyed by retro gaming enthusiasts. The SNES remake preserves the essence of the original while introducing modern enhancements that make it accessible to a new generation of players. Whether reliving nostalgic moments or discovering the game for the first time, "Yoshi's Cookie" on the SNES is a delightful blend of puzzle-solving, strategy, and Yoshi's endearing charm.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://www.youtube.com/watch?v=sewfZ0G8yh0>

@@ -15,12 +15,12 @@ tags:
   - "exclusive"
 author: "octobot"
 software_data:
-  platform   : segaMD
-  rom_index  : GOLDENAXEIII-GM-00004093-00.md
+  platform   : "segaMD"
+  rom_index  : "GOLDENAXEIII-GM-00004093-00.md"
   release    :
-    region   : Japan
-    source   : official
-    type     : retail
+    region   : "Japan"
+    source   : "official"
+    type     : "retail"
 ---
 
 ## About the game
@@ -40,12 +40,6 @@ The soundtrack of Golden Axe III, composed by Naofumi Hataya and described by ma
 Golden Axe III received praise not only for its technical achievements but also for its ability to capture the essence of the Golden Axe series while introducing fresh elements to keep the gameplay engaging. The cooperative multiplayer mode, a hallmark of the franchise, allows friends to join forces and tackle the challenges together, reinforcing the social aspect of gaming that was prevalent during the era.
 
 Despite its critical acclaim and a dedicated fan base, Golden Axe III marked the end of an era for the series. As the gaming industry transitioned to more advanced platforms, the 16-bit era faded into memory, leaving Golden Axe III as a cherished relic of that bygone time. Nevertheless, its impact endures, and the game remains a celebrated piece of retro gaming history, remembered fondly by those who experienced the magic of the Sega Mega Drive.
-
-## Try it!
-
-The following is the official Sega Mega Drive Japan retail version of the game.
-
-{% include emulator.html platform='segaMD' rom_index='GOLDENAXEIII-GM-00004093-00.md' %}
 
 ## Resources
 

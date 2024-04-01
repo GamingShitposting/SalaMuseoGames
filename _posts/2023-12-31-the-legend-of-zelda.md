@@ -43,10 +43,6 @@ Complementing the engaging gameplay is the iconic musical score composed by Koji
 
 In conclusion, "The Legend of Zelda" for NES is a landmark title that not only shaped the future of video games but also left an indelible mark on popular culture. Its open-world concept, captivating storyline, and memorable characters have secured its place in the pantheon of gaming classics. The game's enduring legacy continues to influence game design and storytelling in the ever-evolving world of interactive entertainment.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game: <https://www.nintendo.co.uk/Games/NES/The-Legend-of-Zelda-796345.html>

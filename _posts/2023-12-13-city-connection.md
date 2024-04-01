@@ -44,10 +44,6 @@ City Connection's enduring legacy is evident in its influence on subsequent gene
 
 In conclusion, City Connection for the NES remains a beloved gem in the world of retro gaming. Its unique blend of driving, platforming, and strategy, coupled with distinctive visuals and a memorable soundtrack, ensures its place in the hearts of gamers who appreciate the charm and challenge of classic arcade experiences. Whether revisiting it for nostalgic reasons or discovering it for the first time, City Connection continues to offer a delightful and engaging journey through the colorful streets of gaming history.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/NES/City-Connection--817880.html>

@@ -12,6 +12,12 @@ tags:
   - "2d"
   - "platformer"
 author: "octobot"
+software_data:
+  platform   : "segaMS"
+  rom_index  : "89da0a1c14b660741680104024aa5942.sms"
+  release    :
+    source   : "official"
+    type     : "SEGA AGES"
 ---
 
 ## About the game
@@ -31,12 +37,6 @@ The rock-paper-scissors mini-games themselves are a testament to the game's char
 Beyond its gameplay innovations, Alex Kidd in Miracle World has left an indelible mark on gaming culture through its iconic character design and memorable soundtrack. Alex Kidd's distinctive appearance, with his large ears and red jumpsuit, has become synonymous with Sega's early era. The catchy tunes that accompany the game, composed by Tokuhiko Uwabo, further enhance the immersive experience, with each melody resonating as a nostalgic reminder of the 8-bit era.
 
 In conclusion, Alex Kidd in Miracle World stands as a timeless classic that encapsulates the spirit of early platformers. Its enduring legacy is evident in the fond memories of those who experienced its challenges and triumphs. From the perilous zones to the memorable rock-paper-scissors clashes, the game remains a testament to Sega's pioneering contributions to the world of video games, solidifying Alex Kidd's place in gaming history.
-
-## Try it!
-
-The following is the official SEGA AGES version of the game.
-
-{% include emulator.html platform='segaMS' rom_index='89da0a1c14b660741680104024aa5942.sms' %}
 
 ## Resources
 

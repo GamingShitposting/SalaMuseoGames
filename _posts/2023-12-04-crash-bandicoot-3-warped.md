@@ -14,6 +14,12 @@ tags:
   - "playstation"
   - "exclusive"
 author: "octobot"
+software_data:
+  platform   : "psx"
+  rom_index  : "SCUS_94289.chd"
+  release    :
+    source   : "official"
+    type     : "demo"
 ---
 
 ## About the game
@@ -35,12 +41,6 @@ The inclusion of time trials further enhances the replayability of Crash Bandico
 The musical score of Crash Bandicoot 3: Warped deserves special mention. Composed by Josh Mancell, the soundtrack complements the game's action perfectly, with catchy tunes that are as memorable as the levels themselves. From the upbeat tempo of the time-trial music to the atmospheric melodies of each era, the soundtrack enhances the overall experience and has become a nostalgic favorite for fans of the series.
 
 In retrospect, Crash Bandicoot 3: Warped remains a cornerstone of the PlayStation 1 era, a game that not only met the expectations set by its predecessors but exceeded them in every aspect. Its enduring legacy is evident in the countless gamers who fondly recall the thrill of navigating through time, collecting crystals, and facing off against iconic villains. The game's success laid the foundation for the continued evolution of the Crash Bandicoot series and left an indelible mark on the platforming genre as a whole. Whether revisiting it for a wave of nostalgia or experiencing it for the first time, Crash Bandicoot 3: Warped remains a timeless classic that transcends the boundaries of its era.
-
-## Try it!
-
-The following is the official PS1 public demo version of the game.
-
-{% include emulator.html platform='psx' rom_index='SCUS_94289.chd' %}
 
 ## Resources
 

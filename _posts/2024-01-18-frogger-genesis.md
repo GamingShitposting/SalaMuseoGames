@@ -16,7 +16,7 @@ software_data:
   platform   : "segaMD"
   rom_index  : "d3c5e6f66394fb4fb5bbdf52c6ccbd4e.md"
   release    :
-    region   : "Usa"
+    region   : "USA"
     source   : "official"
     type     : "retail"
 ---
@@ -36,10 +36,6 @@ The soundtrack, a critical component of Frogger's atmospheric allure, received a
 Frogger for Sega Genesis embraced the multiplayer trend of its era, offering a cooperative mode that allowed two players to share the challenge. Whether collaboratively strategizing to conquer the roads or engaging in friendly competition to see who could reach the safety zone first, the multiplayer feature added a social dimension to Frogger's solitary journey.
 
 As the gaming landscape evolved, Frogger for Sega Genesis cemented its status as a timeless classic. The game's accessibility made it suitable for players of all ages, and its unforgiving difficulty curve ensured a satisfying sense of accomplishment for those who mastered its challenges. The digital swamp of Frogger on Sega Genesis remains a nostalgic retreat for those who yearn for the pixelated landscapes of gaming's yesteryears, where a determined frog's quest for safety captured the hearts of players across generations.
-
-## Try it!
-
-{% include software-embed.html %}
 
 ## Resources
 

@@ -40,10 +40,6 @@ Beyond its entertainment value, "Bomberman" also serves as a historical artifact
 
 In conclusion, "Bomberman" for the NES remains a classic that transcends the boundaries of time. Its addictive gameplay, memorable multiplayer experiences, and enduring legacy make it a must-play for retro gaming enthusiasts and a crucial piece of video game history. Whether you're a seasoned gamer reminiscing about the golden age of consoles or a newcomer eager to explore the roots of gaming, "Bomberman" continues to offer an explosive journey that stands the test of time.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://www.youtube.com/watch?v=3eeXUqMvIOE>

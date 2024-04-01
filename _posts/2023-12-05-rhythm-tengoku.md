@@ -13,6 +13,13 @@ tags:
   - "cartoon"
   - "exclusive"
 author: "octobot"
+software_data:
+  platform   : "gba"
+  rom_index  : "RIZUTEN-SHOPBZLJ01.gba"
+  release    :
+    region   : "Japan"
+    source   : "kiosk"
+    type     : "demo"
 ---
 
 ## About the game
@@ -34,12 +41,6 @@ In addition to its engaging single-player mode, Rhythm Tengoku offers a multipla
 Rhythm Tengoku's enduring appeal lies not only in its captivating gameplay and visuals but also in its memorable soundtrack. Composed by Tsunku, a renowned Japanese musician and producer, the game's music is a key element of its charm. The infectious melodies and catchy beats stay with players long after they put down their GBA, creating a lasting connection between the game and its audience.
 
 In conclusion, Rhythm Tengoku for the Game Boy Advance is a shining example of Nintendo's ability to craft innovative and engaging experiences. Its fusion of music, gameplay, and charming visuals makes it a standout title in the rhythm game genre. Whether you're a seasoned rhythm game enthusiast or a casual player looking for a joyful and accessible gaming experience, Rhythm Tengoku invites you to tap, flick, and groove your way through a musical adventure on the GBA.
-
-## Try it!
-
-The following is the official GBA kiosk demo version of the game.
-
-{% include emulator.html platform='gba' rom_index='RIZUTEN-SHOPBZLJ01.gba' %}
 
 ## Resources
 

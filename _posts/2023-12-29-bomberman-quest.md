@@ -48,10 +48,6 @@ As players progress through the game, they'll unravel the unfolding story throug
 
 In conclusion, Bomberman Quest remains a standout title in the Game Boy Color library, offering a refreshing take on the classic Bomberman formula. Its engaging narrative, diverse gameplay mechanics, and charming visuals make it a must-play for fans of the franchise and retro gaming enthusiasts alike. Two decades after its initial release, the game continues to hold its own as a timeless adventure that captures the spirit of classic handheld gaming.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://air-gaming.com/bomberman-quest-le-test-game-boy-color/>

@@ -17,7 +17,7 @@ software_data:
   platform   : "n64"
   rom_index  : "Animal Forest (English Patch).z64"
   release    :
-    region   : "Global"
+    region   : "English"
     source   : "community"
     type     : "translation"
 ---
@@ -39,10 +39,6 @@ The game's graphics, though limited by the hardware capabilities of the Nintendo
 "Animal Forest" also incorporates a unique connectivity feature with the Game Boy Color. By using the N64's Controller Pak and linking it with a Game Boy Color, players can access an exclusive island known as the "Island of the Lost." This additional content adds a layer of exploration and mystery, providing players with new challenges and opportunities for interaction with special island-dwelling characters.
 
 In retrospect, "Animal Forest" serves as a testament to Nintendo's ability to create endearing and enduring gaming experiences. Its influence is palpable in the subsequent iterations of the "Animal Crossing" series, which have garnered a massive global fanbase. The game's combination of charming characters, open-ended gameplay, and the innovative use of real-time mechanics has left an indelible mark on the world of video games, making "Animal Forest" a cherished classic among Nintendo enthusiasts.
-
-## Try it!
-
-{% include software-embed.html %}
 
 ## Resources
 

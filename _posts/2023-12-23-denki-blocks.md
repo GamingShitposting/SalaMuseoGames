@@ -40,10 +40,6 @@ Beyond its gameplay mechanics, Denki Blocks! contributes to the Game Boy Advance
 
 In conclusion, Denki Blocks! for the Game Boy Advance is more than just a puzzle game; it is a testament to the ingenuity of game developers in crafting memorable and intellectually stimulating experiences. With its combination of innovative gameplay, captivating visuals, and multiplayer functionality, Denki Blocks! remains a timeless classic that continues to captivate puzzle enthusiasts and stands as a testament to the creativity that can flourish within the constraints of handheld gaming.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Cover image credits: <https://www.retroplace.com/en/games/59639--denki-blocks>

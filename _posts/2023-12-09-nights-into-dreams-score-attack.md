@@ -14,6 +14,13 @@ tags:
   - "minigame"
   - "arcade"
 author: "octobot"
+software_data:
+  platform   : "gba"
+  core: "mgba"
+  rom_index  : "NIGHTS-AGBT8P.gba"
+  release    :
+    source   : "official"
+    type     : "MultiBoot"
 ---
 
 ## About the game
@@ -35,9 +42,3 @@ As players progress through the dream courses, they encounter a diverse array of
 NiGHTS into Dreams - Score Attack also introduces a competitive element through its leaderboard system. Players can compare their scores with others, fostering a sense of community and friendly rivalry. The inclusion of a link cable multiplayer mode allows friends to engage in aerial races and cooperative score-boosting sessions, enhancing the social aspect of the gaming experience.
 
 In conclusion, NiGHTS into Dreams - Score Attack for the Game Boy Advance successfully captures the magic of the original Sega Saturn classic while tailoring the experience for handheld gaming. With its captivating dream courses, visually stunning graphics, enchanting music, and a focus on replayability, NiGHTS into Dreams - Score Attack stands as a testament to the enduring appeal of the NiGHTS franchise and remains a cherished gem in the library of GBA games.
-
-## Try it!
-
-The following is the GBA MultiBoot version of the game.
-
-{% include emulator.html backend='cuttingedge' platform='gba' emulator='mgba' rom_index='NIGHTS-AGBT8P.gba' %}

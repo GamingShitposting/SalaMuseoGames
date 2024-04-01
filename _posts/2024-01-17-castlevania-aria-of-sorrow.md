@@ -37,10 +37,6 @@ As Soma delves deeper into the heart of darkness, he encounters a diverse cast o
 
 Castlevania: Aria of Sorrow stands as a triumph of design, storytelling, and technical achievement on the Game Boy Advance. Its legacy extends beyond the handheld realm, leaving an indelible mark on the Castlevania series and the broader landscape of action-adventure gaming. With its innovative gameplay mechanics, atmospheric presentation, and compelling narrative, Aria of Sorrow remains a shining example of the timeless appeal of the Castlevania franchise, inviting players to brave the darkness and uncover the secrets that lie within the heart of Dracula's Castle.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Game/Game-Boy-Advance/Castlevania-Aria-of-Sorrow-975872.html>

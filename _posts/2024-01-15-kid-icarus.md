@@ -40,10 +40,6 @@ The audiovisual presentation of Kid Icarus is also noteworthy. The 8-bit graphic
 
 Despite its initial commercial reception, Kid Icarus has garnered a dedicated fan base over the years, with many appreciating its unique gameplay mechanics, charming characters, and mythical setting. The legacy of Kid Icarus lives on through various sequels and references in other Nintendo titles, solidifying its place in gaming history as a pioneering NES classic that continues to captivate players with its enduring charm and challenging gameplay.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/NES/Kid-Icarus-777613.html>

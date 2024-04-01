@@ -40,12 +40,7 @@ However, where Mario's Tennis truly shone was in its multiplayer mode. Utilizing
 
 Despite the Virtual Boy's limited commercial success and relatively short lifespan, Mario's Tennis left an indelible mark on the gaming landscape. Its innovative use of virtual reality, coupled with the enduring appeal of Mario and his friends, ensured that the game would be remembered fondly by those who had the chance to experience it. Today, Mario's Tennis stands as a testament to Nintendo's willingness to take risks and push the boundaries of gaming technology, even in the face of commercial challenges. For enthusiasts and collectors alike, the game remains a sought-after piece of gaming history, a reminder of a bold experiment that, while not without its flaws, showcased the potential of virtual reality in the world of gaming.
 
-## Try it!
-
-{% include software-embed.html %}
-
 ## Resources
 
 * Official page of the game: <https://www.nintendo.co.jp/n09/vue/p_vmtj/index.html>
 * Cover image credits: <https://www.youtube.com/watch?v=byE6lg9jj_A>
-
