@@ -16,11 +16,13 @@ tags:
   - "reflexes"
   - "Unity"
 author: "octobot"
+mobygames_id: 70600
 software_data:
   platform   : "web"
   frame_url  : "https://gamingshitposting.github.io/ext-bin-1/geometrylite.io/game/geometry-dash-full-version/index.html"
   screen:
     orientation: "landscape"
+    display: "fullscreen"
   release    :
     source   : "homebrew"
     type     : "porting"

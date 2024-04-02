@@ -11,7 +11,7 @@ cd "$( dirname "$( realpath "$0" )" )"
 	cat << [EOF] > "./_posts/$3-$2.md"
 ---
 layout: "post"
-title: ""
+title: "$([ -n "$4" ] && curl -L "https://www.mobygames.com/game/$4/" | grep '<meta property="og:title"' | cut -b36-)"
 subtitle: ""
 description: ""
 image: "/assets/media/games/$2/"
@@ -20,13 +20,17 @@ category: "games"
 tags:
   - ""
 author: "octobot"
+mobygames_id: "$4"
 software_data:
-  platform   : ""
-  rom_index  : ""
-  release    :
-    region   : ""
-    source   : ""
-    type     : ""
+  platform:  ""
+  frame_url: ""
+  release:
+    region: ""
+    source: ""
+    type:   ""
+  screen:
+    orientation: ""
+    display:     ""
 ---
 
 ## About the game

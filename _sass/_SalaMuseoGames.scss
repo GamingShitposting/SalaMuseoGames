@@ -51,9 +51,9 @@ iframe#software-embed-frame
 	overflow: hidden;
 }
 
-#ConfigurationCustomizerElem > ul > li {
+#ConfigurationCustomizer > ul > li {
 	display: block;
 }
-#ConfigurationCustomizerElem > ul[data-section]:before {
+#ConfigurationCustomizer > ul[data-section]:before {
 	font-weight: bold;
 }

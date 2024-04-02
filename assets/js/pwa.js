@@ -9,10 +9,12 @@ if (Prefs.pwaManifests.value) {
   var manifestData;
   if (Prefs.softwarePwaManifests.value && Software) {
     // specific manifests on games pages
+    var pageUrl = (location.href + ''); // TODO Url parameters to make the game open fullscreen and automatically start
     manifestData = {
       name: document.querySelector('.post-title').textContent,
       description: document.querySelector('.post-subtitle').textContent,
-      start_url: (location.href + ''), // TODO Url parameters to make the game open fullscreen and automatically start
+      start_url: pageUrl,
+      scope: pageUrl,
       display: ((Screen && Screen.display) || "standalone"),
       orientation: ((Screen && Screen.orientation) || "any"),
     };
@@ -27,10 +29,12 @@ if (Prefs.pwaManifests.value) {
         break;
       };
     }
+    var pageUrl = (Site.url + Site.baseurl);
     manifestData = {
       name: ldData.name,
       description: ldData.description,
-      start_url: (Site.url + Site.baseurl),
+      start_url: pageUrl,
+      scope: pageUrl,
       display: "standalone",
     };
   }

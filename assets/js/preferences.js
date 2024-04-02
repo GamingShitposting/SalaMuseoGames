@@ -5,7 +5,7 @@ var prefsIndex = 'SalaMuseoGames/Prefs/v1';
 var Prefs = {
   pwaManifests: { default: true, name: "Allow installing the site as a PWA" },
   softwarePwaManifests: { default: true, dependsOn: "pwaManifests", name: "Allow installing individual games as PWAs" },
-  // offlineCache: { default: true, name: "Cache site pages and game files offline", summary: "Allow faster site navigation, and gameplay without an Internet connection, by caching unlimited data offline. Disable if you want to save storage. (Note that game data for some emulators is always cached regardless of this setting, you can manage their data from their embedded UI.)" },
+  // offlineCache: { default: true, name: "Cache site pages and game files offline", summary: "Allow faster site navigation, and gameplay without an Internet connection, by caching unlimited data offline. Disable if you want to save storage. (Note that data for some emulators and games is always cached regardless of this setting; you can only manage their data when they show an option in their interface.)" },
   // dataExport: { onclick: (function(){}), section: "data", name: "Export configuration and gamesaves" },
   // dataImport: { onclick: (function(){}), section: "data", name: "Import configuration and gamesaves" },
   // featurePreview: { default: false, name: "Use experimental features before their release", summary: "If some new site features or adjustments are scheduled to release soon, you might be chosen to preview them before they are officially available" },
@@ -42,7 +42,7 @@ if (configElem) {
     var sectionElem = document.createElement('ul');
     sectionElem.dataset.section = key;
     sectionElem.style.display = (section && !section.visible ? 'none' : '');
-    styleElem.innerHTML += `#ConfigurationCustomizerElem > ul[data-section="${key}"]:before { content: "${(section && section.name) || ''}" }`;
+    styleElem.innerHTML += `#ConfigurationCustomizer > ul[data-section="${key}"]:before { content: "${(section && section.name) || ''}" }`;
     configElem.appendChild(sectionElem);
   });
   Object.keys(Prefs).forEach(function(key){
