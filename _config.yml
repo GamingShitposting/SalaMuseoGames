@@ -9,10 +9,10 @@ show_hero: true
 menu:
   - title: "Home"
     url: "/"
-  - title: "Configuration"
-    url: "/configuration/"
   - title: "About"
     url: "/about/"
+  - title: "Configuration"
+    url: "/configuration/"
   - title: "Contact"
     url: "https://github.com/GamingShitposting/SalaMuseoGames/issues/new/choose"
     type: "external"

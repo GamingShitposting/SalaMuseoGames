@@ -18,11 +18,11 @@ function SavePrefs () {
   localStorage.setItem(prefsIndex, items);
 }
 
-var storedPrefs = JSON.parse(localStorage.getItem(prefsIndex) || {});
+var storedPrefs = JSON.parse(localStorage.getItem(prefsIndex)) || {};
 Object.keys(Prefs).forEach(function(key){
   var storedValue = storedPrefs[key];
   Prefs[key].value = (storedValue !== undefined ? storedValue : Prefs[key].default);
-}):
+});
 
 var PrefsSections = {
   developer: { name: "Developer", visible: Prefs.developerMode.value },
@@ -31,12 +31,18 @@ var PrefsSections = {
 if (ConfigurationCustomizerElem) {
   var rootElem = ConfigurationCustomizerElem;
   rootElem.innerHTML = null;
+  Object.keys(Object.assign({ default: null }, PrefsSections)).forEach(function(key){
+    var sectionElem = document.createElement('ul');
+    sectionElem.dataset.section = key;
+    sectionElem.style.display = (PrefsSections[key] && !PrefsSections[key].visible ? 'none' : '');
+    rootElem.appendChild(sectionElem);
+  });
   Object.keys(Prefs).forEach(function(key){
-  // TODO: finish HTML
+    // TODO: finish HTML
     var pref = Prefs[key];
     var prefElem = document.createElement('p');
-    prefElem.innerHTML += `<label><input type="checkbox" ${pref.value && 'checked'} disabled/> ${pref.name}</label><br/><small>${pref.summary}</small>`;
-    rootElem.appendChild(prefElem);
+    prefElem.innerHTML += `<label><input type="checkbox" ${pref.value && 'checked'} disabled/> ${pref.name}</label><br/><small>${pref.summary || ''}</small>`;
+    rootElem.querySelector(`[data-section="${pref.section || 'default'}"]`).appendChild(prefElem);
   });
 }
 

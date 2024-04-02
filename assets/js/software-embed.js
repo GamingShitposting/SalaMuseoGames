@@ -5,9 +5,25 @@
 	var core = data.core;
 	var backend = data.backend;
 	var romUrl = (data.rom_url || 'https://gamingshitposting.github.io/ext-bin-1/roms/'+data.rom_index+'.7z');
+
+	function diyEmbedHtml (frameUrl) { return `
+		<button onclick="(function(ctx){
+			ctx.parentElement.scrollIntoView();
+			ctx.parentElement.querySelector('iframe#software-embed-frame').focus();
+		})(this)">Focus</button>
+		<button onclick="(function(ctx){
+			ctx.parentElement.querySelector('iframe#software-embed-frame').requestFullscreen();
+		})(this)">Fullscreen</button>
+		<iframe id="software-embed-frame" src="${frameUrl}"></iframe>
+	` }
 	
-	// set any overrides if specified ...
+	// TODO set any overrides if specified ...
 	
+	if (platform === 'web') {
+		thisElement.outerHTML = diyEmbedHtml(data.frame_url);
+	}
+	
+	else
 	switch (backend)
 	{
 		default:
@@ -34,12 +50,7 @@
 			else if (platform === 'dos') {
 				frameUrl = `https://gamingshitposting.github.io/ext-bin-1/dos.zone/${data.rom_index}/index.html`;
 			}
-			thisElement.outerHTML = `
-			<button onclick="(function(ctx){
-				ctx.parentElement.scrollIntoView();
-				ctx.parentElement.querySelector('iframe#software-embed-frame').focus();
-			})(this)">Focus</button>
-			<iframe id="software-embed-frame" src="${frameUrl}"></iframe>`;
+			thisElement.outerHTML = diyEmbedHtml(frameUrl);
 		break;
 	}
 })();
