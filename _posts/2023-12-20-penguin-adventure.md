@@ -12,6 +12,7 @@ tags:
   - "arcade"
   - "story"
 author: "octobot"
+mobygames_id_approx: "18977"
 software_data:
   platform   : "segaMS"
   rom_index  : "cada8fbd55b6444f2308e770c79eaccc.sms"
@@ -38,3 +39,4 @@ In addition to the standard platforming levels, Penguin Adventure introduces und
 The music and sound effects in Penguin Adventure are memorable, with catchy tunes complementing the on-screen action. The limited audio capabilities of the Sega Master System are utilized effectively, creating an immersive sonic experience that enhances the overall atmosphere of the game. The soundtrack, composed by Ikutaro Kakehashi, adds an extra layer of nostalgia for players revisiting this classic title.
 
 Penguin Adventure received positive reviews upon its release, earning praise for its engaging gameplay, charming graphics, and memorable soundtrack. While it may not have achieved the same level of mainstream success as some of Sega's other titles, it remains a beloved gem among retro gaming enthusiasts. The legacy of Penguin Adventure endures through its influence on future platformers and its place in the hearts of those who fondly remember guiding Penta on his epic Antarctic quest.
+

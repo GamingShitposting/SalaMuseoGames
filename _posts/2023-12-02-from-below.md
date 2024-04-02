@@ -11,6 +11,7 @@ tags:
   - "tetris"
   - "puzzle"
 author: "octobot"
+mobygames_id: "155377"
 software_data:
   platform   : "nes"
   rom_index  : "15945fe933188072397cdfb0ad0cdfdb.nes"
@@ -57,3 +58,4 @@ The narrative unfolds with a sense of urgency, as players not only grapple with 
 
 * Official website of the game: <https://frombelowgame.com>
 * Official itch.io page of the game: <https://mhughson.itch.io/from-below>
+

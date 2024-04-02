@@ -13,6 +13,7 @@ tags:
   - "racing"
   - "platforming"
 author: "octobot"
+mobygames_id: "8334"
 software_data:
   platform   : nes
   rom_index  : 13a196f06bc83198b826548cba064775.nes
@@ -47,3 +48,4 @@ In conclusion, City Connection for the NES remains a beloved gem in the world of
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/NES/City-Connection--817880.html>
+

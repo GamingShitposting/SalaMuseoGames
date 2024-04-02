@@ -14,6 +14,7 @@ tags:
   - "multiplayer"
   - "online"
 author: "octobot"
+mobygames_id: "20164"
 software_data:
   platform   : nds
   core       : desmume
@@ -46,3 +47,4 @@ Mario Kart DS successfully captures the essence of the series, delivering a port
 
 * Official page of the game: <https://www.nintendo.co.uk/Games/Nintendo-DS/Mario-Kart-DS-271518.html>
 * Cover image credits: <https://www.gametripper.co.uk/games/nintendo-ds/mario-kart-ds/>
+

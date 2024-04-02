@@ -13,6 +13,7 @@ tags:
   - "action"
   - "arcade"
 author: "octobot"
+mobygames_id: "7681"
 software_data:
   platform   : "nes"
   rom_index  : "7ca43d450c5e4140c3d9e7ad75bc9a63.nes"

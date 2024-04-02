@@ -12,6 +12,7 @@ tags:
   - "nintendo"
   - "platformer"
 author: "octobot"
+mobygames_id: "4275"
 software_data:
   platform   : "gb"
   rom_index  : "b259feb41811c7e4e1dc200167985c84.gb"

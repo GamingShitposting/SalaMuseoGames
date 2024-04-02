@@ -5,6 +5,7 @@ subtitle: "Unleash your inner alchemist in this captivating puzzle game of creat
 description: "Little Alchemy 2 invites players to embark on a journey of elemental exploration and experimentation. Combining different elements to create new ones, this addictive puzzle game challenges your creativity and logic as you uncover the vast array of possibilities within its magical world."
 image: "/assets/media/games/little-alchemy-2/little_alchemy_2.webp"
 image_source: "internal"
+icon: "https://gamingshitposting.github.io/ext-bin-1/littlealchemy2.com/public/icons/icon-256x256.png"
 category: "games"
 tags:
   - "puzzle"
@@ -19,7 +20,7 @@ author: "octobot"
 mobygames_id: "101108"
 software_data:
   platform:  "web"
-  frame_url: "https://gamingshitposting.github.io/ext-bin-1/littlealchemy2.com/index.html"
+  frame_index: "littlealchemy2.com/index.html"
   release:
     source: "official"
     type:   "release"

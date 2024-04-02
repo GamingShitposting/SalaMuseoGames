@@ -14,6 +14,7 @@ tags:
   - "rpg"
   - "top-down"
 author: "octobot"
+mobygames_id: "42043"
 software_data:
   platform   : "gbc"
   core       : "gambatte"

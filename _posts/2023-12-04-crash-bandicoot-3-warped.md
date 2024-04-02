@@ -14,6 +14,7 @@ tags:
   - "playstation"
   - "exclusive"
 author: "octobot"
+mobygames_id: "4357"
 software_data:
   platform   : "psx"
   rom_index  : "SCUS_94289.chd"
@@ -45,3 +46,4 @@ In retrospect, Crash Bandicoot 3: Warped remains a cornerstone of the PlayStatio
 ## Resources
 
 * Cover image credits: <https://moviegalorestore.com>
+

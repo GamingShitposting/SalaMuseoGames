@@ -12,6 +12,7 @@ tags:
   - "rpg"
   - "lore"
 author: "octobot"
+mobygames_id: "9237"
 software_data:
   platform   : "gba"
   rom_index  : "CASTLEVANIA2A2CPA4.gba"

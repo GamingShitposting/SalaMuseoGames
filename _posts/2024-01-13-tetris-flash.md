@@ -11,6 +11,7 @@ tags:
   - "fast"
   - "strategy"
 author: "octobot"
+mobygames_id: "6026"
 software_data:
   platform   : "nes"
   rom_index  : "2f9d902e84dd3ff7b1223d7edb727e2a.nes"

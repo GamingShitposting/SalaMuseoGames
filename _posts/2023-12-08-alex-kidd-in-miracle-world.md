@@ -12,6 +12,7 @@ tags:
   - "2d"
   - "platformer"
 author: "octobot"
+mobygames_id: "8330"
 software_data:
   platform   : "segaMS"
   rom_index  : "89da0a1c14b660741680104024aa5942.sms"
@@ -41,3 +42,4 @@ In conclusion, Alex Kidd in Miracle World stands as a timeless classic that enca
 ## Resources
 
 * Cover image credits: <https://www.pushsquare.com/games/ps4/alex_kidd_in_miracle_world_dx>
+

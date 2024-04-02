@@ -12,6 +12,7 @@ tags:
   - "nintendo"
   - "bullet-proof-software"
 author: "octobot"
+mobygames_id: "4398"
 software_data:
   platform   : "snes"
   rom_index  : "b08d6dc455cbed53799c7495ea71b08c.sfc"

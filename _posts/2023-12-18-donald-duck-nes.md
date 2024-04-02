@@ -12,6 +12,7 @@ tags:
   - "minigames"
   - "disney"
 author: "octobot"
+mobygames_id_approx: "11609"
 software_data:
   platform   : "nes"
   rom_index  : "0eb65236ec3b9ea01641461e28d6f30b.nes"
@@ -42,3 +43,4 @@ In conclusion, "Donald Duck" for the NES stands as a classic example of 8-bit ga
 ## Resources
 
 * Cover image credits: <https://www.ebay.com/itm/DONALD-DUCK-Disney-Famicom-Nintendo-bdc-fc-/302166019320>
+

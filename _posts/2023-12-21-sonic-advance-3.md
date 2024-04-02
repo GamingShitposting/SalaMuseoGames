@@ -14,6 +14,7 @@ tags:
   - "modern"
   - "colorful"
 author: "octobot"
+mobygames_id: "14294"
 software_data:
   platform   : "gba"
   rom_index  : "SONICADVANC3B3SJ8P.gba"

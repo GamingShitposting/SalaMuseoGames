@@ -4,6 +4,7 @@ title: "Geometry Dash Lite"
 subtitle: "Navigate through geometric obstacles in this rhythm-based platformer."
 description: "Geometry Dash Lite is a rhythm-based platformer game developed by Robert Topala, where players control a square-shaped character and navigate through various levels filled with geometric obstacles. The game features simple one-touch controls, challenging gameplay, and a dynamic soundtrack synced with the level design. Players must jump, fly, and flip their way through each level, timing their movements to the beat of the music to avoid obstacles and reach the end goal. With its addictive gameplay and level editor allowing players to create and share their own levels, Geometry Dash Lite has garnered a dedicated fanbase and remains a popular choice for gamers seeking fast-paced challenges and creative expression."
 image: "https://gamingshitposting.github.io/ext-bin-1/geometrylite.io/game/geometry-dash-full-version/loading.png"
+icon: "../../../../assets/media/games/geometry-dash-lite/p7kWbWBFxQIrzolEqiV5uSvctLeyssZvBV7UBOX29wzZI52IdcSs4qCB_zsQJL1mt9A.png"
 category: "games"
 tags:
   - "free"
@@ -16,10 +17,10 @@ tags:
   - "reflexes"
   - "Unity"
 author: "octobot"
-mobygames_id: 70600
+mobygames_id_approx: "70600"
 software_data:
   platform   : "web"
-  frame_url  : "https://gamingshitposting.github.io/ext-bin-1/geometrylite.io/game/geometry-dash-full-version/index.html"
+  frame_index: "geometrylite.io/game/geometry-dash-full-version/index.html"
   screen:
     orientation: "landscape"
     display: "fullscreen"

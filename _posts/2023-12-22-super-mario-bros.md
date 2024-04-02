@@ -14,6 +14,7 @@ tags:
   - "colorful"
   - "horizontal"
 author: "octobot"
+mobygames_id: "7298"
 software_data:
   platform   : "nes"
   rom_index  : "f94bb9bb55f325d9af8a0fff80b9376d.nes"

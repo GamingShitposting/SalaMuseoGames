@@ -41,3 +41,4 @@ In conclusion, "Butano Fighter" stands as a testament to the creativity and pass
 ## Resources
 
 * Official page of the game; Cover image credits: <https://gvaliente.itch.io/butano-fighter>
+

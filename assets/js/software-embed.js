@@ -1,31 +1,37 @@
 (function(){
+	var bin1Path = 'https://gamingshitposting.github.io/ext-bin-1';
 	var thisElement = document.querySelector(`script[src="${SalaMuseoGames.site.baseurl}/assets/js/software-embed.js"]`);
 	var data = SalaMuseoGames.page.software_data;
 	var platform = data.platform;
 	var core = data.core;
 	var backend = data.backend;
-	var romUrl = (data.rom_url || 'https://gamingshitposting.github.io/ext-bin-1/roms/'+data.rom_index+'.7z');
+	var romUrl = (data.rom_url || `${bin1Path}/roms/${data.rom_index}.7z`);
+	var frameUrl = (data.frame_url || `${bin1Path}/${data.frame_index}`);
 
-	function diyEmbedHtml (frameUrl) { return `
-		<button onclick="(function(ctx){
+	function button (name, onclick) { return `<button onclick="(${onclick})(this)">${name}</button>` }
+
+	function diyEmbedHtml (frameUrl) { return (
+		button('Focus', function(ctx){
 			ctx.parentElement.scrollIntoView();
 			ctx.parentElement.querySelector('iframe#software-embed-frame').focus();
-		})(this)">Focus</button>
-		<button onclick="(function(ctx){
+		}) +
+		button('Fullscreen', function(ctx){
 			ctx.parentElement.querySelector('iframe#software-embed-frame').requestFullscreen();
-		})(this)">Fullscreen</button>
-		<iframe id="software-embed-frame" src="${frameUrl}"></iframe>
-	` }
-	
+		}) +
+		button('Reload', function(ctx){
+			var frame = ctx.parentElement.querySelector('iframe#software-embed-frame');
+			var src = frame.src;
+			frame.src = '';
+			frame.src = src;
+		}) +
+		`<iframe id="software-embed-frame" src="${frameUrl}"></iframe>`
+	) }
+
 	// TODO set any overrides if specified ...
-	
+
 	if (platform === 'web') {
-		thisElement.outerHTML = diyEmbedHtml(data.frame_url);
-	}
-	
-	else
-	switch (backend)
-	{
+		thisElement.outerHTML = diyEmbedHtml(frameUrl);
+	} else switch (backend) {
 		default:
 		case 'cuttingedge':
 		case 'emulatorjs':

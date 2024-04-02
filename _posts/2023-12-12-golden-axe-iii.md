@@ -14,6 +14,7 @@ tags:
   - "beat-em-up"
   - "exclusive"
 author: "octobot"
+mobygames_id: "8738"
 software_data:
   platform   : "segaMD"
   rom_index  : "GOLDENAXEIII-GM-00004093-00.md"
@@ -44,3 +45,4 @@ Despite its critical acclaim and a dedicated fan base, Golden Axe III marked the
 ## Resources
 
 * Official page of the game; Cover image credits: <https://store.steampowered.com/app/211202/Golden_Axe_III/>
+

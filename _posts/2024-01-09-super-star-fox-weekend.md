@@ -15,6 +15,7 @@ tags:
   - "nintendo"
   - "exclusive"
 author: "octobot"
+mobygames_id: "22582"
 software_data:
   platform   : "snes"
   rom_index  : "700f0a4b0d161669ea4a7e7385c6c16f.sfc"

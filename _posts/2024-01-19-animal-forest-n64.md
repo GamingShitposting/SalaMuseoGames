@@ -13,6 +13,7 @@ tags:
   - "nintendo"
   - "japanese"
 author: "octobot"
+mobygames_id: "73768"
 software_data:
   platform   : "n64"
   rom_index  : "Animal Forest (English Patch).z64"

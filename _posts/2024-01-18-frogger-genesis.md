@@ -12,6 +12,7 @@ tags:
   - "remake"
   - "platformer"
 author: "octobot"
+mobygames_id: "1540"
 software_data:
   platform   : "segaMD"
   rom_index  : "d3c5e6f66394fb4fb5bbdf52c6ccbd4e.md"

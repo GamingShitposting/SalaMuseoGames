@@ -12,6 +12,7 @@ tags:
   - "nonogram"
   - "puzzle"
 author: "octobot"
+mobygames_id: "26428"
 software_data:
   platform   : "nds"
   core       : "desmume"
@@ -37,3 +38,4 @@ With its timeless appeal, Picross DS continues to be celebrated as a classic wit
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/Nintendo-DS/Picross-DS-272255.html>
+

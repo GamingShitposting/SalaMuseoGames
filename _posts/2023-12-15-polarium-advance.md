@@ -11,6 +11,7 @@ tags:
   - "puzzle"
   - "mitchell"
 author: "octobot"
+mobygames_id: "22435"
 software_data:
   platform   : gba
   rom_index  : POLARIUMGBA-BIIP01.gba
@@ -41,3 +42,4 @@ As a standout title for the Game Boy Advance, Polarium Advance holds a special p
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/Game-Boy-Advance/Polarium-Advance-298284.html#Overview>
+

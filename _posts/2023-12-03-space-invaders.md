@@ -11,7 +11,7 @@ tags:
   - "shooter"
   - "2d"
 author: "octobot"
-mobygames_id: 8806
+mobygames_id: "8806"
 software_data:
   platform   : "nes"
   rom_index  : "26300f044b85b129ac41577cbff42a6f.nes"
@@ -35,3 +35,4 @@ In conclusion, Space Invaders for the NES stands as a testament to the enduring 
 ## Resources
 
 * MobyGames page of the game; Cover image credits: <https://www.mobygames.com/game/8806/space-invaders>
+

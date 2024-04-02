@@ -13,6 +13,7 @@ tags:
   - "arkanoid"
   - "puzzle"
 author: "octobot"
+mobygames_id: "6774"
 software_data:
   platform   : "gb"
   rom_index  : "203db7ddc72359e4db5e9ab42a6f0ba8.gb"

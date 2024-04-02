@@ -12,6 +12,7 @@ tags:
   - "action"
   - "tecmo"
 author: "octobot"
+mobygames_id: "13061"
 software_data:
   platform   : "nes"
   rom_index  : "bc4b51bfc957e84ad14981f1e3871d96.nes"

@@ -14,6 +14,7 @@ tags:
   - "action"
   - "adventure"
 author: "octobot"
+mobygames_id: "3393"
 software_data:
   platform   : "nes"
   rom_index  : "614fb3085826e62f3be3a3fe0b931689.nes"

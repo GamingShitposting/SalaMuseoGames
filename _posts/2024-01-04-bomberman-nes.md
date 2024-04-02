@@ -13,6 +13,7 @@ tags:
   - "action"
   - "strategy"
 author: "octobot"
+mobygames_id: "10806"
 software_data:
   platform   : "nes"
   rom_index  : "64c3903224298ca9972991ea6a2b22a4.nes"

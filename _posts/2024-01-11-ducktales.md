@@ -13,6 +13,7 @@ tags:
   - "adventure"
   - "exploration"
 author: "octobot"
+mobygames_id: "8606"
 software_data:
   platform   : "nes"
   rom_index  : "2672343a1f33a2766050f8dfd405906f.nes"

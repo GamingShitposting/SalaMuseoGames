@@ -16,6 +16,7 @@ tags:
 author: "octobot"
 redirect_from:
   - /2023/12/11/super-mario-rpg-legend-of-the-seven-stars-Copy/
+mobygames_id: "6692"
 software_data:
   platform   : "snes"
   rom_index  : "d0b68d68d9efc0558242f5476d1c5b81.sfc"
@@ -46,3 +47,4 @@ In retrospect, *Super Mario RPG: Legend of the Seven Stars* stands as a testamen
 ## Resources
 
 * Official page of the game; Cover image credits: <https://www.nintendo.co.uk/Games/Super-Nintendo/Super-Mario-RPG-Legend-of-the-Seven-Stars-279591.html>
+

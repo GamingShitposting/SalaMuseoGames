@@ -13,6 +13,7 @@ tags:
   - "cartoon"
   - "exclusive"
 author: "octobot"
+mobygames_id: "23687"
 software_data:
   platform   : "gba"
   rom_index  : "RIZUTEN-SHOPBZLJ01.gba"
@@ -45,3 +46,4 @@ In conclusion, Rhythm Tengoku for the Game Boy Advance is a shining example of N
 ## Resources
 
 * Article on Hello! Project Wiki; Cover image credits: <https://helloproject.fandom.com/wiki/Rhythm_Tengoku>
+

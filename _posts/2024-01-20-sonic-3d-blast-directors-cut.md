@@ -12,6 +12,7 @@ tags:
   - "puzzle"
   - "collectathon"
 author: "octobot"
+mobygames_id_approx: "3494"
 software_data:
   platform   : "segaMD"
   rom_index  : "Sonic 3D Blast - Director's Cut (World) (Unl).md"

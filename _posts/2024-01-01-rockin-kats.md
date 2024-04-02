@@ -13,6 +13,7 @@ tags:
   - "fighting"
   - "atlus"
 author: "octobot"
+mobygames_id: "23634"
 software_data:
   platform   : "nes"
   rom_index  : "0163786b14088f5a1c5d23cf0b1e4ede.nes"

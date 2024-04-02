@@ -13,6 +13,7 @@ tags:
   - "denki"
   - "cartoon"
 author: "octobot"
+mobygames_id: "4741"
 software_data:
   platform   : "gba"
   rom_index  : "DENKIBLOCKS!ADBP7G.gba"

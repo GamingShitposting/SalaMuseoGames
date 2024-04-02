@@ -14,6 +14,7 @@ tags:
   - "nintendo"
   - "war"
 author: "octobot"
+mobygames_id: "4990"
 software_data:
   platform   : "gba"
   rom_index  : "ADVANCEWARSPAWRP01.gba"

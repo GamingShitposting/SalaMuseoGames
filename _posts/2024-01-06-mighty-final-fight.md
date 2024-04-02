@@ -12,6 +12,7 @@ tags:
   - "beat-em-up"
   - "capcom"
 author: "octobot"
+mobygames_id: "11085"
 software_data:
   platform   : "nes"
   rom_index  : "a8ad5d885a3e4e70ac083f4589374df8.nes"

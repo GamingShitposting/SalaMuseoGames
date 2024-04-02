@@ -15,6 +15,7 @@ tags:
   - "sports"
   - "exclusive"
 author: "octobot"
+mobygames_id: "15152"
 software_data:
   platform   : "vb"
   rom_index  : "38ecc2c5a745a80d32eb9e8e413358c4.vb"
@@ -44,3 +45,4 @@ Despite the Virtual Boy's limited commercial success and relatively short lifesp
 
 * Official page of the game: <https://www.nintendo.co.jp/n09/vue/p_vmtj/index.html>
 * Cover image credits: <https://www.youtube.com/watch?v=byE6lg9jj_A>
+
