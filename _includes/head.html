@@ -107,6 +107,7 @@
 			baseurl: {{ site.baseurl | jsonify }},
 		};
 		window.page_config = {
+			icon: {{ page.icon | jsonify }},
 			software_data: {{ page.software_data | jsonify }},
 		};
 		window.SalaMuseoGames = { site: site_config, page: page_config };
