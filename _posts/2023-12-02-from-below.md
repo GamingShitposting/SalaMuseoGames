@@ -18,7 +18,7 @@ software_data:
   # embed_url: "https://html-classic.itch.zone/html/4531906/index.html"
   release    :
     source   : "aftermarket"
-    type     : "release v1.0.0"
+    type     : "release 1.0.0"
 ---
 
 ## About the game

@@ -50,3 +50,10 @@ iframe#software-embed-frame
 	border: none;
 	overflow: hidden;
 }
+
+#ConfigurationCustomizerElem > ul > li {
+	display: block;
+}
+#ConfigurationCustomizerElem > ul[data-section]:before {
+	font-weight: bold;
+}

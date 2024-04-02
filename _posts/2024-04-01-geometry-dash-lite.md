@@ -14,10 +14,16 @@ tags:
   - "precision"
   - "levels"
   - "reflexes"
+  - "Unity"
 author: "octobot"
 software_data:
   platform   : "web"
   frame_url  : "https://gamingshitposting.github.io/ext-bin-1/geometrylite.io/game/geometry-dash-full-version/index.html"
+  screen:
+    orientation: "landscape"
+  release    :
+    source   : "homebrew"
+    type     : "porting"
 ---
 
 ## About the game
@@ -35,4 +41,5 @@ Since its initial release, Geometry Dash Lite has amassed a dedicated fanbase an
 ## Resources
 
 * Official page of the game: <https://play.google.com/store/apps/details?id=com.robtopx.geometryjumplite>
+* Page of the HTML5 porting: <https://geometrylite.io/geometry-dash-full-version>
 

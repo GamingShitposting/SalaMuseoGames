@@ -123,9 +123,9 @@
         {
             "@context": "http://schema.org",
             "@type": "BlogPosting",
-            "name": "{{ page.title }}",
-            "headline": "{{ page.subtitle }}",
-            "description": "{{ page.description }}",
+            "name": {{ page.title | jsonify }},
+            "headline": {{ page.subtitle | jsonify }},
+            "description": {{ page.description | jsonify }},
             "image": "{{ page.image }}",
             "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
             "articleBody": "{{ content | strip_html | xml_escape | textilize }}",
@@ -136,13 +136,13 @@
             "dateModified": "{{ page.date | date: '%Y-%m-%d/' }}",
             "author": {
                 "@type": "Person",
-                "name": "{{ author.display_name }}",
+                "name": {{ author.display_name | jsonify }},
                 {% if author.photo %}
                 "image": "{{ author.photo }}",
                 {% else %}
                 "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
                 {% endif %}
-                "jobTitle": "{{ author.position }}",
+                "jobTitle": {{ author.position | jsonify }},
                 "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",
                 "sameAs": [
                     {{ author_urls | split: "," | join: "," }}
@@ -150,7 +150,7 @@
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "{{ site.name }}",
+                "name": {{ site.name | jsonify }},
                 "url": "{{ site.url }}{{site.baseurl}}/",
                 "logo": {
                     "@type": "ImageObject",
