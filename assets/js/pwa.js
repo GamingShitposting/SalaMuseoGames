@@ -4,6 +4,18 @@ var Prefs = SalaMuseoGames.Prefs;
 var Software = SalaMuseoGames.page.software_data;
 var Screen = (Software && Software.screen);
 var Site = SalaMuseoGames.site;
+var iconUrl = SalaMuseoGames.page.icon;
+var sitePath = (Site.url + Site.baseurl);
+
+function absoluteUrlFromRelative (url) {
+  if (url.startsWith('/')) {
+    return (sitePath + url);
+  } else if (url.startsWith('./') || url.startsWith('../')) {
+    return (location.href + url);
+  } else {
+    return url;
+  }
+}
 
 if (Prefs.pwaManifests.value) {
   var manifestData;
@@ -29,12 +41,11 @@ if (Prefs.pwaManifests.value) {
         break;
       };
     }
-    var pageUrl = (Site.url + Site.baseurl);
     manifestData = {
       name: ldData.name,
       description: ldData.description,
-      start_url: pageUrl,
-      scope: pageUrl,
+      start_url: sitePath,
+      scope: sitePath,
       display: "standalone",
     };
   }
@@ -42,7 +53,7 @@ if (Prefs.pwaManifests.value) {
     scope: location.href,
     background_color: (Software && Software.background_color || getComputedStyle(document.body).backgroundColor),
     icons: [{
-      src: (SalaMuseoGames.page.icon || (Site.url + Site.baseurl + '/assets/img/icons/mediumtile.png')),
+      src: (iconUrl ? absoluteUrlFromRelative(iconUrl) : (sitePath + '/assets/img/icons/mediumtile.png')),
       sizes: "any",
       purpose: "any",
     }],
