@@ -64,8 +64,8 @@ if (Prefs.pwaManifests.value) {
   document.head.appendChild(manifestElem);
 }
 
-if (Prefs.offlineCache.value) {
-  navigator.serviceWorker.register('/SalaMuseoGames-ServiceWorker.js');
+if (Prefs.offlineCache.value && 'serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/ServiceWorker.js', { scope: "/SalaMuseoGames/" });
 }
 
 })();

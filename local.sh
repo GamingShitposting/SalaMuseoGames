@@ -22,8 +22,9 @@ tags:
 author: "octobot"
 mobygames_id: "$4"
 software_data:
-  platform:  ""
+  platform: ""
   frame_url: ""
+  frame_index: ""
   release:
     region: ""
     source: ""
