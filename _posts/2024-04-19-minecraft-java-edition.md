@@ -3,8 +3,9 @@ layout: "post"
 title: "Minecraft (Java Edition)"
 subtitle: "Dive into the limitless world of creativity and survival in Minecraft Java Edition, version Release 1.8.8."
 description: "Minecraft Java Edition, version Release 1.8.8, offers players a sandbox environment where they can explore, craft, and survive in a blocky, procedurally generated world filled with endless possibilities."
-image: "/assets/media/games/minecraft-java-edition/Screenshot from 2024-04-20 00-03-23.png"
+image: "/assets/media/games/minecraft/Screenshot from 2024-04-20 00-03-23.png"
 image_source: "internal"
+icon: "../../../../assets/media/games/minecraft/0a17ad0fa0870b05f172deeb05efef8e.png"
 category: "games"
 tags:
   - "simulation"
@@ -49,7 +50,7 @@ Version 1.8.8 of Minecraft Java Edition represents a milestone in the game's evo
 
 ## Resources
 
-* Official page of the game; Cover image credits: <https://www.minecraft.net>
+* Official site of the game: <https://www.minecraft.net>
 * Official site of the Eaglercraft web porting: <https://eaglercraft.com>
 * Official Eaglercraft Git profile with source code: <https://git.eaglercraft.rip/eaglercraft>
 
