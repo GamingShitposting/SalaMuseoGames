@@ -16,7 +16,7 @@ subtitle: ""
 description: ""
 image: "/assets/media/games/$2/"
 image_source: "internal"
-icon: ""
+icon: "../../../../assets/media/games/$2/"
 category: "games"
 tags:
   - ""

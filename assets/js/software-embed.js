@@ -11,20 +11,25 @@
 	function button (name, onclick) { return `<button onclick="(${onclick})(this)">${name}</button>` }
 
 	function diyEmbedHtml (frameUrl) { return (
-		button('Focus', function(ctx){
+		button('Focus 🔳️', function(ctx){
 			ctx.parentElement.scrollIntoView();
 			ctx.parentElement.querySelector('iframe#software-embed-frame').focus();
 		}) + ' ' +
-		button('Fullscreen', function(ctx){
+		button('Fullscreen 🖼️', function(ctx){
 			ctx.parentElement.querySelector('iframe#software-embed-frame').requestFullscreen();
 		}) + ' ' +
-		button('Reload', function(ctx){
+		button('Enlarge ↔️', function(ctx){
+			document.body.classList[
+				!document.body.className.split(' ').includes('cinema-view') ? 'add' : 'remove'
+			]('cinema-view');
+		}) + ' ' +
+		button('Reload ♻️', function(ctx){
 			var frame = ctx.parentElement.querySelector('iframe#software-embed-frame');
 			var src = frame.src;
 			frame.src = '';
 			frame.src = src;
 		}) + ' ' +
-		`<iframe id="software-embed-frame" src="${frameUrl}"></iframe>`
+		`<iframe id="software-embed-frame" class="software-embed-frame" src="${frameUrl}"></iframe>`
 	) }
 
 	// TODO set any overrides if specified ...

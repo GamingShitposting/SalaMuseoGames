@@ -21,10 +21,10 @@ author: "octobot"
 mobygames_id: "96870"
 software_data:
   platform: "web"
-  frame_index: "games/DDLC-1.1.1-web/index.html"
+  frame_index: "games/DDLC-1.1.1-web/wrapper.html"
   release:
     source: "unofficial"
-    type:   "web build"
+    type:   "release 1.1.1 porting"
   screen:
     orientation: "landscape"
     display:     "fullscreen"

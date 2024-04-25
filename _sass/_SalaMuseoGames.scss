@@ -57,3 +57,19 @@ iframe#software-embed-frame
 #ConfigurationCustomizer > ul[data-section]:before {
 	font-weight: bold;
 }
+
+body.cinema-view > section.post > aside {
+	display: none;
+}
+
+body.cinema-view > section.post,
+body.cinema-view > section.post > article,
+body.cinema-view > section.post > article > p.software-embed-wrapper {
+	margin: 0;
+	min-width: 100vw;
+}
+
+body.cinema-view > section.post > article > p.software-embed-wrapper > iframe {
+	margin: 0;
+	min-width: 100%;
+}
