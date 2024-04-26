@@ -58,18 +58,29 @@ iframe#software-embed-frame
 	font-weight: bold;
 }
 
+section.post > article > p.software-embed-wrapper > button[name="enlarge"] {
+	display: none;
+}
+@media (min-width: 37.5rem) {
+	section.post > article > p.software-embed-wrapper > button[name="enlarge"] {
+		display: revert;
+	}
+}
+
 body.cinema-view > section.post > aside {
 	display: none;
 }
 
 body.cinema-view > section.post,
-body.cinema-view > section.post > article,
-body.cinema-view > section.post > article > p.software-embed-wrapper {
-	margin: 0;
+body.cinema-view > section.post > article {
+	margin-left: 0;
+	margin-right: 0;
 	min-width: 100vw;
 }
 
+body.cinema-view > section.post > article > p.software-embed-wrapper,
 body.cinema-view > section.post > article > p.software-embed-wrapper > iframe {
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 	min-width: 100%;
 }

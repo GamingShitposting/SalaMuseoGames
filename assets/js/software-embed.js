@@ -8,7 +8,7 @@
 	var romUrl = (data.rom_url || `${bin1Path}/roms/${data.rom_index}.7z`);
 	var frameUrl = (data.frame_url || `${bin1Path}/${data.frame_index}`);
 
-	function button (name, onclick) { return `<button onclick="(${onclick})(this)">${name}</button>` }
+	function button (name, onclick) { return `<button name="${name.split(' ')[0]}" onclick="(${onclick})(this)">${name}</button>` }
 
 	function diyEmbedHtml (frameUrl) { return (
 		button('Focus 🔳️', function(ctx){
