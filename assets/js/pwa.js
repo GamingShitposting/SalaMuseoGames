@@ -59,10 +59,9 @@ if (Prefs.pwaManifests.value || Prefs.softwarePwaManifests.value) {
       purpose: "any",
     }],
   });
-  var manifestElem = document.createElement('link');
-  manifestElem.rel = 'manifest';
-  manifestElem.href = ('data:application/manifest+json;utf8,' + encodeURIComponent(JSON.stringify(manifestData)));
-  document.head.appendChild(manifestElem);
+  document.head.appendChild(SMG.Util.makeElement('link', {
+    rel: 'manifest', href: ('data:application/manifest+json;utf8,' + encodeURIComponent(JSON.stringify(manifestData))),
+  }));
 }
 
 if ('serviceWorker' in navigator) {

@@ -3,7 +3,7 @@
 var Util = window.SalaMuseoGames.Util = {};
 
 Util.makeElement = (function(tag, attrs){
-  return Object.assign(document.createElement('tag'), attrs);
+  return Object.assign(document.createElement(tag), attrs);
 });
 
 Util.elementFromHtml = (function(html){

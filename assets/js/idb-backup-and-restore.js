@@ -41,7 +41,7 @@ exportToJson: function (idbDatabase) {
                 idbDatabase.objectStoreNames.length ===
                 Object.keys(exportObject).length
               ) {
-                resolve(JSON.stringify(exportObject))
+                resolve(/*JSON.stringify(*/exportObject/*)*/)
               }
             }
           })
@@ -66,7 +66,7 @@ importFromJson: function (idbDatabase, json) {
     )
     transaction.addEventListener('error', reject)
 
-    var importObject = JSON.parse(json)
+    var importObject = /*JSON.parse(*/json/*)*/
     for (const storeName of idbDatabase.objectStoreNames) {
       let count = 0
       for (const toAdd of importObject[storeName]) {

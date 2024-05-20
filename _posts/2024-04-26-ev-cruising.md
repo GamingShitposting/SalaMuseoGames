@@ -72,18 +72,6 @@ Visually, "EV Cruising" delights players with its charming pixel art graphics an
 
 In summary, "EV Cruising" stands as a testament to the creativity and ingenuity of the NESmaker community, offering players a fresh and exhilarating take on classic arcade racing gameplay. With its intuitive controls, strategic depth, and charming presentation, the game represents a must-play title for fans of retro gaming and arcade racing alike.
 
-Tags:
-1. Retro Gaming
-2. NES Homebrew
-3. Byte-Off 4
-4. Arcade Racing
-5. Electric Vehicles
-6. Strategic Planning
-7. Resource Management
-8. Pixel Art
-9. Chiptune Music
-10. Multiplayer Competitions
-
 ## Resources
 
 * Official page of the game; Quoted description and cover image credits: <https://m8si.itch.io/ev-cruising>
