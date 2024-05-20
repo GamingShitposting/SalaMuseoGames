@@ -5,6 +5,7 @@ var Software = SalaMuseoGames.page.software_data;
 var Screen = (Software && Software.screen);
 var Site = SalaMuseoGames.site;
 var iconUrl = SalaMuseoGames.page.icon;
+var coverUrl = SalaMuseoGames.page.image;
 var sitePath = (Site.url + Site.baseurl);
 
 function absoluteUrlFromRelative (url) {
@@ -17,7 +18,7 @@ function absoluteUrlFromRelative (url) {
   }
 }
 
-if (Prefs.pwaManifests.value) {
+if (Prefs.pwaManifests.value || Prefs.softwarePwaManifests.value) {
   var manifestData;
   if (Prefs.softwarePwaManifests.value && Software) {
     // specific manifests on games pages
@@ -30,7 +31,7 @@ if (Prefs.pwaManifests.value) {
       display: ((Screen && Screen.display) || "standalone"),
       orientation: ((Screen && Screen.orientation) || "any"),
     };
-  } else {
+  } else if (Prefs.pwaManifests.value) {
     // site manifest on global pages
     var ldData;
     for (var elem of document.querySelectorAll('script[type="application/ld+json"]')) {
@@ -53,7 +54,7 @@ if (Prefs.pwaManifests.value) {
     scope: location.href,
     background_color: (Software && Software.background_color || getComputedStyle(document.body).backgroundColor),
     icons: [{
-      src: (iconUrl ? absoluteUrlFromRelative(iconUrl) : (sitePath + '/assets/img/icons/mediumtile.png')),
+      src: ((iconUrl || coverUrl) ? absoluteUrlFromRelative(iconUrl || coverUrl) : (sitePath + '/assets/img/icons/mediumtile.png')),
       sizes: "any",
       purpose: "any",
     }],
@@ -64,8 +65,21 @@ if (Prefs.pwaManifests.value) {
   document.head.appendChild(manifestElem);
 }
 
-if (Prefs.offlineCache.value && 'serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/ServiceWorker.js', { scope: "/SalaMuseoGames/" });
+if ('serviceWorker' in navigator) {
+  var cachingScopes = ['SalaMuseoGames', 'ext-bin-1'];
+  if (Prefs.offlineCache.value) {
+    cachingScopes.forEach(function(scope){
+      navigator.serviceWorker.register('/ServiceWorker.js', { scope: `/${scope}/` });
+    });
+  } else {
+    navigator.serviceWorker.getRegistrations().then((workers) => {
+      for (var worker of workers) {
+        if (cachingScopes.includes(worker.scope.split('/').slice(-2)[0])) {
+          worker.unregister();
+        }
+      }
+    });
+  }
 }
 
 })();

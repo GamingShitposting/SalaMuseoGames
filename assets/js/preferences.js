@@ -2,10 +2,10 @@
 
 var prefsIndex = 'SalaMuseoGames/Prefs/v1';
 
-var Prefs = {
-  pwaManifests: { default: true, name: "Allow installing the site as a PWA" },
-  softwarePwaManifests: { default: true, dependsOn: "pwaManifests", name: "Allow installing individual games as PWAs" },
-  // offlineCache: { default: true, name: "Cache site pages and game files offline", summary: "Allow faster site navigation, and gameplay without an Internet connection, by caching unlimited data offline. Disable if you want to save storage. (Note that data for some emulators and games is always cached regardless of this setting; you can only manage their data when they show an option in their interface.)" },
+var Prefs = window.SalaMuseoGames.Prefs = {
+  softwarePwaManifests: { default: true, /* dependsOn: "pwaManifests", */ name: "Allow installing individual games as PWAs" },
+  pwaManifests: { default: false, name: "Allow installing the site home itself as a PWA" },
+  offlineCache: { default: true, name: "Cache site pages and game files offline", summary: "Allow faster site navigation, and gameplay without an Internet connection, by caching unlimited data offline. Disable if you want to save storage. (Note that data for some emulators and games is always cached regardless of this setting; you can only manage their data when they show an option in their interface.)" },
   // dataExport: { onclick: (function(){}), section: "data", name: "Export configuration and gamesaves" },
   // dataImport: { onclick: (function(){}), section: "data", name: "Import configuration and gamesaves" },
   // featurePreview: { default: false, name: "Use experimental features before their release", summary: "If some new site features or adjustments are scheduled to release soon, you might be chosen to preview them before they are officially available" },
@@ -28,8 +28,9 @@ Object.keys(Prefs).forEach(function(key){
 });
 
 var PrefsSections = {
-  data: { name: "Data management", visible: true },
+  // data: { name: "Data management", visible: true },
   developer: { name: "Development", visible: Prefs.developerMode.value },
+  // advanced: { name: "Advanced", visible: true },
 };
 
 var configElem = document.querySelector('#ConfigurationCustomizer');
@@ -64,7 +65,6 @@ if (configElem) {
   });
 }
 
-window.SalaMuseoGames.Prefs = Prefs;
 SavePrefs();
 
 })();

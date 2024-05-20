@@ -20,4 +20,4 @@ All your changes are saved automatically.
 * Try to load games marked unavailable
 -->
 
-<div id="ConfigurationCustomizer"><p>Loading...</p></div>
+<div id="ConfigurationCustomizer"><p>Loading...</p><script src="{{ site.baseurl }}/assets/js/idb-backup-and-restore.js"></script></div>

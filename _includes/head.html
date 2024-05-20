@@ -110,6 +110,8 @@
 			icon: {{ page.icon | jsonify }},
 			software_data: {{ page.software_data | jsonify }},
 		};
-		window.SalaMuseoGames = { site: site_config, page: page_config };
+		window.SMG = window.SalaMuseoGames = { site: site_config, page: page_config };
 	</script>
+
+	<script src="{{ site.baseurl }}/assets/js/util.js"></script>
 </head>
