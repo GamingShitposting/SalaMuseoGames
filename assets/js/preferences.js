@@ -25,7 +25,7 @@ var Prefs = window.SalaMuseoGames.Prefs = {
         idbBackupAndRestore.exportToJson(event.target.result).then(async function(json){
           data.indexedDB[db] = json;
           if (Object.keys(data.indexedDB).length === dbs.length) {
-            SMG.Util.useTempElement(SMG.Util.makeElement('a', ...(await makeDownloadObj(data))), function(elem){ elem.click() });
+            SMG.Util.useTempElement(SMG.Util.makeElement('a', (await makeDownloadObj(data))), function(elem){ elem.click() });
           }
         });
       });

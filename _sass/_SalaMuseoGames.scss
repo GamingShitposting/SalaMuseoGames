@@ -43,8 +43,13 @@ footer a > svg
 	vertical-align: middle;
 }
 
+section.post > article {
+	word-wrap: break-word;
+}
+
 iframe.AppFrame,
-iframe#software-embed-frame
+iframe#software-embed-frame,
+body.cinema-view > section.post > article > p.software-embed-wrapper > div.software-embed-container
 {
 	height: calc(100vh - 4rem);
 	border: none;
@@ -72,15 +77,25 @@ body.cinema-view > section.post > aside {
 }
 
 body.cinema-view > section.post,
-body.cinema-view > section.post > article {
+body.cinema-view > section.post > article,
+body.cinema-view > section.post > article > p.software-embed-wrapper,
+body.cinema-view > section.post > article > p.software-embed-wrapper > #software-embed-frame,
+body.cinema-view > section.post > article > p.software-embed-wrapper > div.software-embed-container,
+body.cinema-view > section.post > article > p.software-embed-wrapper > div.software-embed-container > div#software-embed-frame,
+body.cinema-view > section.post > article > p.software-embed-wrapper > div.software-embed-container > div#software-embed-frame > div.ejs_game {
 	margin-left: 0;
 	margin-right: 0;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 	min-width: 100vw;
 }
 
-body.cinema-view > section.post > article > p.software-embed-wrapper,
-body.cinema-view > section.post > article > p.software-embed-wrapper > #software-embed-frame {
-	margin-left: 0;
-	margin-right: 0;
-	min-width: 100%;
+body.cinema-view > section.post > article > p.software-embed-wrapper > span.software-embed-controls {
+	padding-left: 1em;
+	padding-right: 1em;
 }
+
+/* body.cinema-view > section.post > article > p.software-embed-wrapper,
+body.cinema-view > section.post > article > p.software-embed-wrapper > #software-embed-frame {
+	min-width: 100%;
+} */

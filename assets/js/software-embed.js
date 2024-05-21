@@ -9,29 +9,40 @@ var backend = data.backend;
 var romUrl = (data.rom_url || `${bin1Path}/roms/${data.rom_index}.7z`);
 var frameUrl = (data.frame_url || `${bin1Path}/${data.frame_index}`);
 
-function button (name, onclick) { return `<button name="${name.split(' ')[0]}" onclick="(${onclick})(this)">${name}</button>` }
+function makeButton (name, onclick) { return `<button name="${name.split(' ')[0]}" onclick="(${onclick})(this, this.parentElement.parentElement)">${name}</button>` }
 
-var buttonEnlarge = button('Enlarge ↔️', function(){
-	document.body.classList[
+function controlsHtml (picks) { return ( '<span class="software-embed-controls">' +
+	(picks.all || picks.focus ? makeButton('Focus 🔳️', function(button, wrapper){
+		wrapper.scrollIntoView();
+		var iframe = wrapper.querySelector('iframe#software-embed-frame');
+		if (iframe) {
+			iframe.focus();
+		} else {
+			if (!wrapper.style) {
+				document.querySelector('section.post > article').style = 'z-index: 10;';
+				wrapper.style = 'z-index: 1; position: fixed; top: 0; margin-top: 0; background: black; height: 100vh; left: 0;';
+				button.textContent = 'Unfocus 🔳️';
+			} else {
+				wrapper.style = document.querySelector('section.post > article').style = null;
+				button.textContent = 'Focus 🔳️';
+			}
+		}
+	}) + ' ' : '') +
+	(picks.all || picks.fullscreen ? makeButton('Fullscreen 🖼️', function(button, wrapper){
+		wrapper.querySelector('iframe#software-embed-frame').requestFullscreen();
+	}) + ' ' : '') +
+	(picks.all || picks.enlarge ? makeButton('Enlarge ↔️', function(){ document.body.classList[
 		!document.body.className.split(' ').includes('cinema-view') ? 'add' : 'remove'
-	]('cinema-view');
-});
-
-function diyEmbedHtml (frameUrl) { return (
-	button('Focus 🔳️', function(ctx){
-		ctx.parentElement.scrollIntoView();
-		ctx.parentElement.querySelector('iframe#software-embed-frame').focus();
-	}) + ' ' +
-	button('Fullscreen 🖼️', function(ctx){
-		ctx.parentElement.querySelector('iframe#software-embed-frame').requestFullscreen();
-	}) + ' ' +
-	buttonEnlarge + ' ' +
-	button('Reload ♻️', function(ctx){
-		var frame = ctx.parentElement.querySelector('iframe#software-embed-frame');
+	]('cinema-view') }) + ' ' : '') +
+	(picks.all || picks.reload ? makeButton('Reload ♻️', function(button, wrapper){
+		var frame = wrapper.querySelector('iframe#software-embed-frame');
 		var src = frame.src;
 		frame.src = '';
 		frame.src = src;
-	}) + ' ' +
+	}) + ' ' : '') + '</span>'
+) }
+
+function diyEmbedHtml (frameUrl) { return (controlsHtml({ all: true }) +
 	`<iframe id="software-embed-frame" class="software-embed-frame" src="${frameUrl}"></iframe>`
 ) }
 
@@ -48,8 +59,9 @@ if (platform === 'web') {
 		window.EJS_core = (core || platform);
 		window.EJS_gameUrl = romUrl;
 		window.EJS_screenRecording = { videoBitrate: 150000000 };
-		thisElement.parentElement.appendChild(SMG.Util.elementFromHtml(buttonEnlarge));
+		thisElement.parentElement.appendChild(SMG.Util.elementFromHtml(controlsHtml({ focus: true, enlarge: true })));
 		thisElement.parentElement.appendChild(SMG.Util.makeElement('div', {
+			className: 'software-embed-container',
 			style: 'width: 640px; height: 480px; max-width: 100%;',
 			innerHTML: '<div id="software-embed-frame"></div>',
 		}));

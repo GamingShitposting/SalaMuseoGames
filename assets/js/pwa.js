@@ -22,7 +22,7 @@ if (Prefs.pwaManifests.value || Prefs.softwarePwaManifests.value) {
   var manifestData;
   if (Prefs.softwarePwaManifests.value && Software) {
     // specific manifests on games pages
-    var pageUrl = (location.href + ''); // TODO Url parameters to make the game open fullscreen and automatically start
+    var pageUrl = (location.href + '?pwaLaunch=1'); // TODO Url parameters to make the game open fullscreen and automatically start
     manifestData = {
       name: document.querySelector('.post-title').textContent,
       description: document.querySelector('.post-subtitle').textContent,
@@ -45,13 +45,12 @@ if (Prefs.pwaManifests.value || Prefs.softwarePwaManifests.value) {
     manifestData = {
       name: ldData.name,
       description: ldData.description,
-      start_url: sitePath,
-      scope: sitePath,
+      start_url: (sitePath + '/'),
+      scope: (sitePath + '/'),
       display: "standalone",
     };
   }
   manifestData = Object.assign(manifestData, {
-    scope: location.href,
     background_color: (Software && Software.background_color || getComputedStyle(document.body).backgroundColor),
     icons: [{
       src: ((iconUrl || coverUrl) ? absoluteUrlFromRelative(iconUrl || coverUrl) : (sitePath + '/assets/img/icons/mediumtile.png')),
