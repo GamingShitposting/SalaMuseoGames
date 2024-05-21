@@ -18,7 +18,7 @@ tags:
 author: "octobot"
 mobygames_id: "17730"
 software_data:
-  platform: "NES"
+  platform: "nes"
   rom_index: "578ac4e6c15c915e274c69580f30aaa9.nes"
   release:
     region: "USA"
