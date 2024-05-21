@@ -24,12 +24,15 @@ author: "octobot"
 mobygames_id: "$4"
 software_data:
   platform: ""
+  core: ""
+  rom_index: ""
   frame_url: ""
   frame_index: ""
   release:
     region: ""
     source: ""
     type:   ""
+    year:   ""
   screen:
     orientation: ""
     display:     ""

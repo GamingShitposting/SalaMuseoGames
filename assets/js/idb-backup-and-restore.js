@@ -12,15 +12,13 @@ exportToJson: function (idbDatabase) {
   return new Promise((resolve, reject) => {
     const exportObject = {}
     if (idbDatabase.objectStoreNames.length === 0) {
-      resolve(JSON.stringify(exportObject))
+      resolve(/*JSON.stringify(*/exportObject/*)*/)
     } else {
       const transaction = idbDatabase.transaction(
         idbDatabase.objectStoreNames,
         'readonly'
       )
-
       transaction.addEventListener('error', reject)
-
       for (const storeName of idbDatabase.objectStoreNames) {
         const allObjects = []
         transaction
@@ -30,12 +28,11 @@ exportToJson: function (idbDatabase) {
             const cursor = event.target.result
             if (cursor) {
               // Cursor holds value, put it into store data
-              allObjects.push(cursor.value)
+              allObjects.push([cursor.key, cursor.value])
               cursor.continue()
             } else {
               // No more values, store is done
               exportObject[storeName] = allObjects
-
               // Last store was handled
               if (
                 idbDatabase.objectStoreNames.length ===
@@ -65,12 +62,23 @@ importFromJson: function (idbDatabase, json) {
       'readwrite'
     )
     transaction.addEventListener('error', reject)
-
     var importObject = /*JSON.parse(*/json/*)*/
+    if (idbDatabase.objectStoreNames.length === 0) {
+      resolve()
+    }
     for (const storeName of idbDatabase.objectStoreNames) {
+      // ignore empty stores (we have to do this explicitly or the keys will never be deleted, and the promise will not resolve)
+      if (importObject[storeName].length === 0) {
+         delete importObject[storeName];
+         if (Object.keys(importObject).length === 0) {
+           resolve()
+         }
+         continue;
+      }
       let count = 0
       for (const toAdd of importObject[storeName]) {
-        const request = transaction.objectStore(storeName).add(toAdd)
+        let [k,value] = toAdd;
+        const request = transaction.objectStore(storeName).add(value,k)
         request.addEventListener('success', () => {
           count++
           if (count === importObject[storeName].length) {
@@ -100,7 +108,6 @@ clearDatabase: function (idbDatabase) {
       'readwrite'
     )
     transaction.addEventListener('error', reject)
-
     let count = 0
     for (const storeName of idbDatabase.objectStoreNames) {
       transaction
