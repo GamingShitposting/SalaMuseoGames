@@ -48,12 +48,14 @@ section.post > article {
 }
 
 iframe.AppFrame,
-iframe#software-embed-frame,
-body.cinema-view > section.post > article > p.software-embed-wrapper > div.software-embed-container
-{
+iframe#software-embed-frame {
 	height: calc(100vh - 4rem);
 	border: none;
 	overflow: hidden;
+}
+
+body.cinema-view > section.post > article > p.software-embed-wrapper > div.software-embed-container {
+	height: calc(100vh - 2rem);
 }
 
 #ConfigurationCustomizer > ul > li {

@@ -18,21 +18,26 @@ function controlsHtml (picks) { return ( '<span class="software-embed-controls">
 		if (iframe) {
 			iframe.focus();
 		} else {
-			if (!wrapper.style) {
-				document.querySelector('section.post > article').style = 'z-index: 10;';
+			var articleStyle = document.querySelector('section.post > article').style;
+			if (wrapper.style.length === 0) {
+				articleStyle.zIndex = 10;
 				wrapper.style = 'z-index: 1; position: fixed; top: 0; margin-top: 0; background: black; height: 100vh; left: 0;';
+				document.body.style.overflowY = 'hidden';
 				button.textContent = 'Unfocus 🔳️';
 			} else {
-				wrapper.style = document.querySelector('section.post > article').style = null;
+				document.body.style.overflowY = wrapper.style = articleStyle.zIndex = null;
 				button.textContent = 'Focus 🔳️';
 			}
 		}
 	}) + ' ' : '') +
 	(picks.all || picks.fullscreen ? makeButton('Fullscreen 🖼️', function(button, wrapper){
-		wrapper.querySelector('iframe#software-embed-frame').requestFullscreen();
+		var iframe = wrapper.querySelector('iframe#software-embed-frame')
+		iframe.requestFullscreen();
+		iframe.focus();
 	}) + ' ' : '') +
-	(picks.all || picks.enlarge ? makeButton('Enlarge ↔️', function(){ document.body.classList[
-		!document.body.className.split(' ').includes('cinema-view') ? 'add' : 'remove'
+	(picks.all || picks.enlarge ? makeButton('Enlarge ↔️', function(button){ document.body.classList[
+		!document.body.className.split(' ').includes('cinema-view')
+			? (button.textContent = 'Shrink ↔️', 'add') : (button.textContent = 'Enlarge ↔️', 'remove')
 	]('cinema-view') }) + ' ' : '') +
 	(picks.all || picks.reload ? makeButton('Reload ♻️', function(button, wrapper){
 		var frame = wrapper.querySelector('iframe#software-embed-frame');
