@@ -23,6 +23,7 @@ tags:
 author: "octobot"
 mobygames_id: "$4"
 software_data:
+  backend: ""
   platform: ""
   core: ""
   rom_index: ""

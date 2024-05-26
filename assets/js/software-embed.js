@@ -6,8 +6,9 @@ var data = SalaMuseoGames.page.software_data;
 var platform = data.platform;
 var core = data.core;
 var backend = data.backend;
-var romUrl = (data.rom_url || `${bin1Path}/roms/${data.rom_index}.7z`);
 var frameUrl = (data.frame_url || `${bin1Path}/${data.frame_index}`);
+
+function romUrl (suffix) { return (data.rom_url || `${bin1Path}/roms/${data.rom_index}${suffix || ''}`) }
 
 function makeButton (name, onclick) { return `<button name="${name.split(' ')[0]}" onclick="(${onclick})(this, this.parentElement.parentElement)">${name}</button>` }
 
@@ -60,9 +61,9 @@ if (platform === 'web') {
 	case 'cuttingedge':
 	case 'emulatorjs':
 		window.EJS_player = '#software-embed-frame';
-		window.EJS_pathtodata = 'https://gamingshitposting.github.io/ext-bin-1/EmulatorJS/data/';
+		window.EJS_pathtodata = `${bin1Path}/EmulatorJS/data/`;
 		window.EJS_core = (core || platform);
-		window.EJS_gameUrl = romUrl;
+		window.EJS_gameUrl = romUrl('.7z');
 		window.EJS_screenRecording = { videoBitrate: 150000000 };
 		thisElement.parentElement.appendChild(SMG.Util.elementFromHtml(controlsHtml({ focus: true, enlarge: true })));
 		thisElement.parentElement.appendChild(SMG.Util.makeElement('div', {
@@ -75,10 +76,11 @@ if (platform === 'web') {
 	case 'standalone':
 		var frameUrl = '';
 		if (platform === 'nds' || core === 'desmume') {
-			frameUrl = `https://octospacc.gitlab.io/Web-Archives-Misc/Repo/DeSmuME/#RomUrl=${romUrl}`;
-		}
-		else if (platform === 'dos') {
-			frameUrl = `https://gamingshitposting.github.io/ext-bin-1/dos.zone/${data.rom_index}/index.html`;
+			frameUrl = `https://octospacc.gitlab.io/Web-Archives-Misc/Repo/DeSmuME/#RomUrl=${romUrl()}`;
+		} else if (platform === 'dos') {
+			frameUrl = `${bin1Path}/dos.zone/${data.rom_index}/index.html`;
+		} else if (platform === 'pc98' || core === 'np2') {
+			frameUrl = `${bin1Path}/runtime/np2-emularity/index.html#rom=${romUrl('.zip')}`;
 		}
 		thisElement.outerHTML = diyEmbedHtml(frameUrl);
 	break;
