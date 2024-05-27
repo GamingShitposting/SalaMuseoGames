@@ -25,3 +25,10 @@ Central to the success of Sala Museo Games is the emulation community and cuttin
 As we embrace the future of gaming, Sala Museo Games remains at the forefront of innovation. Our dedication to cutting-edge web technology ensures a smooth and responsive gaming experience, whether you're accessing the site on a desktop, laptop, or mobile device. We believe in making gaming accessible to everyone, and our platform reflects this commitment through its user-friendly design and responsive interface.
 
 In conclusion, Sala Museo Games stands as a testament to the artistry and cultural significance of video games. By combining a curated collection, online playability, community engagement, and cutting-edge technology, we invite you to embark on a journey through the digital landscapes that have shaped the gaming world. Join us in celebrating the past, present, and future of video games, where every click is an invitation to explore, play, and appreciate the art of gaming.
+
+## Bonus
+
+Sala Museo Games is fully open-source and costantly improving. Any contributions are welcome <a href="https://github.com/GamingShitposting/SalaMuseoGames">on the GitHub repository</a>.
+
+As I personally work on improvements and additions to this website and its underlying technologies, I usually write devlogs on my microblog: <a href="https://octospacc.altervista.org/?s=SalaMuseoGames">octospacc.altervista.org/?s=SalaMuseoGames</a>.
+

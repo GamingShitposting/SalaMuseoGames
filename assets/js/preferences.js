@@ -5,7 +5,7 @@ var prefsIndex = 'SalaMuseoGames/Prefs/v1';
 var Prefs = window.SalaMuseoGames.Prefs = {
   softwarePwaManifests: { default: true, /* dependsOn: "pwaManifests", */ name: "Allow installing individual games as PWAs" },
   pwaManifests: { default: false, name: "Allow installing the site home itself as a PWA" },
-  offlineCache: { default: true, name: "Cache site pages and game files offline", summary: "Allow faster site navigation, and gameplay while offline, by caching unlimited data. Disable to save device storage. (Note: data for some emulators and games is always cached regardless of this setting; you can only manage their data in their interface if they show an option.)" },
+  offlineCache: { default: true, section: "data", name: "Cache site pages and game files offline", summary: "Allow faster site navigation, and gameplay while offline, by caching unlimited data. Disable to save device storage. (Note: data for some emulators and games is always cached regardless of this setting; you can only manage their data in their interface if they show an option.)" },
   dataExport: { section: "data", name: "Export site configuration and game saves", onclick: (function(){
     async function makeDownloadObj (data) {
       var name = 'SalaMuseoGames-Export.json';
@@ -19,7 +19,7 @@ var Prefs = window.SalaMuseoGames.Prefs = {
       return { download: name, href: URL.createObjectURL(blob) };
     }
     var data = { localStorage, indexedDB: {} };
-    var dbs = ["EmulatorJS-core", "/data/saves", "/home/web_user/.renpy"];
+    var dbs = ["EmulatorJS-core", "/data/saves", "/idbfs", "/home/web_user/.renpy"];
     dbs.forEach(function(db){
       indexedDB.open(db).onsuccess = (function(event){
         idbBackupAndRestore.exportToJson(event.target.result).then(async function(json){
@@ -42,7 +42,7 @@ var Prefs = window.SalaMuseoGames.Prefs = {
         if ('CompressionStream' in window) {
           stream = stream.pipeThrough(new DecompressionStream('gzip'));
         } else {
-          return alert('Compressed archives are not supported in this browser. Please decompress externally and then upload a JSON file.');
+          return alert('Compressed archives are not supported in this browser. Please decompress externally (via gzip or 7z) and then upload the extracted JSON file.');
         }
       } else {
         return alert('File type not recognized.');

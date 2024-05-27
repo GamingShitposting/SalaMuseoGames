@@ -1,11 +1,12 @@
 (function(){
 
-var Prefs = SalaMuseoGames.Prefs;
-var Software = SalaMuseoGames.page.software_data;
+var SMG = SalaMuseoGames;
+var Prefs = SMG.Prefs;
+var Software = SMG.page.software_data;
 var Screen = (Software && Software.screen);
-var Site = SalaMuseoGames.site;
-var iconUrl = SalaMuseoGames.page.icon;
-var coverUrl = SalaMuseoGames.page.image;
+var Site = SMG.site;
+var iconUrl = SMG.page.icon;
+var coverUrl = SMG.page.image;
 var sitePath = (Site.url + Site.baseurl);
 
 function absoluteUrlFromRelative (url) {
@@ -19,7 +20,7 @@ function absoluteUrlFromRelative (url) {
 }
 
 if (Prefs.pwaManifests.value || Prefs.softwarePwaManifests.value) {
-  var manifestData;
+  var manifestData = {};
   if (Prefs.softwarePwaManifests.value && Software) {
     // specific manifests on games pages
     var pageUrl = (location.href + '?pwaLaunch=1'); // TODO Url parameters to make the game open fullscreen and automatically start

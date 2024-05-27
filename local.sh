@@ -30,10 +30,11 @@ software_data:
   frame_url: ""
   frame_index: ""
   release:
+    authors: ""
     region: ""
     source: ""
-    type:   ""
-    year:   ""
+    type: ""
+    year: ""
   screen:
     orientation: ""
     display:     ""

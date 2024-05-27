@@ -44,7 +44,7 @@ function controlsHtml (picks) { return ( '<span class="software-embed-controls">
 		var frame = wrapper.querySelector('iframe#software-embed-frame');
 		var src = frame.src;
 		frame.src = '';
-		frame.src = src;
+		setTimeout(function(){ frame.src = src }, 33); // timeout to work around a bug where the frame remains blank
 	}) + ' ' : '') + '</span>'
 ) }
 

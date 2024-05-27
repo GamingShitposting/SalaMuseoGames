@@ -1,2 +1,9 @@
 <script src="{{ site.baseurl }}/assets/js/preferences.js"></script>
 <script src="{{ site.baseurl }}/assets/js/pwa.js"></script>
+<script>
+  document.querySelector('aside#sidebar ul').appendChild(SMG.Util.elementFromHtml(`<li><button onclick="(${(function(){
+    window.open().document.body.innerHTML = `<iframe src='${location.href}'></iframe><style>
+      body { margin: 0; } iframe { width: 100vw; height: 100vh; border: none; } </style>`;
+    location = 'about:blank';
+  })})();">Cloak to about:blank</button></li>`));
+</script>

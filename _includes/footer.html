@@ -70,7 +70,7 @@
 </script>
 
 <!-- Include the script that allows Netlify CMS login -->
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> -->
 
 <!-- Include the website scripts -->
 <script src="{{ '/assets/js/scripts.min.js' | prepend: site.baseurl }}"></script>
@@ -78,7 +78,7 @@
 <script> document.querySelector('footer > div.nojs-menu').remove(); </script>
 
 <!-- Include Google Analytics script -->
-<!-- {% include stats.html %} -->
+{% include stats.html %}
 
 <!-- Include extra scripts -->
 {% include extra-js.html %}

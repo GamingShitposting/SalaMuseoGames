@@ -19,7 +19,7 @@ menu:
   - title: "Contribute (GitHub)"
     url: "https://github.com/GamingShitposting/SalaMuseoGames"
     type: "external"
-  - title: "Feed"
+  - title: "Atom/RSS Feed"
     url: "/feed.xml"
 email: "gamingshitposting@github.com"
 date_format: "%Y.%m.%d"
