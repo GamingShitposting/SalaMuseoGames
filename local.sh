@@ -5,23 +5,26 @@ cd "$( dirname "$( realpath "$0" )" )"
 	Message="$( [ -n "$2" ] && echo "$2" || cat .CommitMessage.txt )" && \
 	git add . && git commit -m ": ${Message}" && git push
 
-[ "$1" = "newpost" ] && [ -n "$2" ] && [ -n "$3" ] && \
-	mkdir -p "./assets/media/games/$2" && \
-	echo "Add $2 [$3]" > .CommitMessage.txt && \
-	cat << [EOF] > "./_posts/$3-$2.md"
+slug="$2"
+date="$([ -n "$4" ] && echo "$4" || date "+%Y-%m-%d")"
+mobyid="$3"
+[ "$1" = "newpost" ] && ([ -n "${slug}" ] && (\
+	mkdir -p "./assets/media/games/${slug}" && \
+	echo "Add ${slug} [${date}]" > .CommitMessage.txt && \
+	cat << [EOF] > "./_posts/${date}-${slug}.md"
 ---
 layout: "post"
-title: "$([ -n "$4" ] && curl -L "https://www.mobygames.com/game/$4/" | grep '<meta property="og:title"' | cut -b36-)"
+title: "$([ -n "${mobyid}" ] && curl --fail --location "https://www.mobygames.com/game/${mobyid}/" | grep '<meta property="og:title"' | cut -b36-)"
 subtitle: ""
 description: ""
-image: "/assets/media/games/$2/"
+image: "/assets/media/games/${slug}/"
 image_source: "internal"
-icon: "../../../../assets/media/games/$2/"
+icon: "../../../../assets/media/games/${slug}/"
 category: "games"
 tags:
   - ""
 author: "octobot"
-mobygames_id: "$4"
+mobygames_id: "${mobyid}"
 software_data:
   backend: ""
   platform: ""
@@ -49,3 +52,4 @@ software_data:
 * Official page of the game; Cover image credits: <>
 
 [EOF]
+) || echo "Usage: $1 <slug> [mobygames id] [date]")
