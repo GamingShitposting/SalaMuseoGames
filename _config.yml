@@ -97,3 +97,34 @@ exclude: [
 
 # Theme
 version: ""
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      subtitle: ""
+      description: ""
+      image: ""
+      image_source: "scope"
+      category: "games"
+      tags: []
+      author: ""
+      mobygames_id: ""
+      software_data:
+        platform: ""
+        backend: ""
+        core: ""
+        rom_index: ""
+        frame_index: ""
+        frame_url: ""
+        screen:
+          orientation: ""
+          display: ""
+        release:
+          region: ""
+          source: ""
+          type: ""
+          year: ""

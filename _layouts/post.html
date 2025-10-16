@@ -22,7 +22,10 @@
                 <p class="post-subtitle">{{ page.subtitle }}</p>
 
                 {% if page.image and paginator.activated == nil %}
-                    <img src="{% if page.image_source == 'internal' %}{{ site.baseurl }}{% endif %}{{ page.image }}" alt="Featured image" class="post-cover">
+                    <img src="
+                        {%- if page.image_source == 'internal' -%}{{- site.baseurl -}}
+                        {%- elsif page.image_source == 'scope' -%}{{- site.baseurl -}}/assets/media/games/{{- page.slug -}}/
+                        {%- endif -%}{{- page.image -}}" alt="Featured image" class="post-cover">
                 {% endif %}
 
                 {% include pagination-post.html progressBar=true %}

@@ -18,7 +18,10 @@ layout: main
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
         <!-- Hero -->
         {% assign featured = posts.first %}
-        <section class="hero" style="background-image: url('{% if featured.image_source == 'internal' %}{{ site.baseurl }}{% endif %}{{ featured.image }}')">
+        <section class="hero" style="background-image: url('
+                {%- if featured.image_source == 'internal' -%}{{- site.baseurl -}}
+                {%- elsif featured.image_source == 'scope' -%}{{- site.baseurl -}}/assets/media/games/{{- featured.slug -}}/
+                {%- endif -%}{{- featured.image -}}')">
             <div class="pixels"></div>
             <div class="gradient"></div>
             <div class="content">
@@ -58,9 +61,15 @@ layout: main
                                 <img src="{{ post.optimized_image }}" width="100%">
                             </noscript>
                         {% elsif post.image %}
-                            <img src="{{ site.baseurl }}/assets/img/placeholder.png" width="100%" data-url="{% if post.image_source == 'internal' %}{{ site.baseurl }}{% endif %}{{ post.image }}" class="preload">
+                            <img src="{{ site.baseurl }}/assets/img/placeholder.png" width="100%" data-url="
+                                {%- if post.image_source == 'internal' -%}{{- site.baseurl -}}
+                                {%- elsif post.image_source == 'scope' -%}{{- site.baseurl -}}/assets/media/games/{{- post.slug -}}/
+                                {%- endif -%}{{- post.image -}}" class="preload">
                             <noscript>
-                                <img src="{% if post.image_source == 'internal' %}{{ site.baseurl }}{% endif %}{{ post.image }}" width="100%">
+                                <img src="
+                                    {%- if post.image_source == 'internal' -%}{{- site.baseurl -}}
+                                    {%- elsif post.image_source == 'scope' -%}{{- site.baseurl -}}/assets/media/games/{{- post.slug -}}/
+                                    {%- endif -%}{{- post.image -}}" width="100%">
                             </noscript>
                         {% else %}
                             <img src="{{ site.baseurl }}/assets/img/placeholder.png" width="100%" data-url="{{ site.baseurl }}/assets/img/off.jpg" class="preload">

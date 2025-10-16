@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Mario Kart DS"
+title: "Mario Kart DS (Demo)"
 subtitle: "Race to Victory with Mario Kart DS - The Ultimate Portable Racing Experience!"
 description: "Mario Kart DS, released in 2005 by Nintendo for the Nintendo DS handheld console, revolutionized portable gaming with its thrilling combination of iconic Mario characters, heart-pounding races, and innovative dual-screen gameplay. Boasting a diverse roster of racers, an array of challenging tracks, and the introduction of online multiplayer, Mario Kart DS became an instant classic, setting the gold standard for handheld racing games."
 image: "/assets/media/games/mario-kart-ds/Mario-Kart-DS-Mario-wins-darker-banner-with-thanks-to-Moby-Games.png"

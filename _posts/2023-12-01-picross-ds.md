@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Picross DS"
+title: "Picross DS (Demo)"
 subtitle: "Unveil Hidden Images in Picross DS – A Puzzler's Paradise."
 description: "Picross DS, a captivating puzzle game for the Nintendo DS, challenges players with nonograms, requiring strategic logic to reveal pixelated images and unlock a myriad of brain-teasing puzzles, blending creativity and problem-solving in a handheld gaming experience."
 image: "/assets/media/games/picross-ds/SI_NDS_PicrossDS_enGB_image1600w.jpg"

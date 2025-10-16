@@ -10,7 +10,7 @@ var frameUrl = (data.frame_url || `${bin1Path}/${data.frame_index}`);
 
 function romUrl (suffix) { return (data.rom_url || `${bin1Path}/roms/${data.rom_index}${suffix || ''}`) }
 
-function makeButton (name, onclick) { return `<button name="${name.split(' ')[0]}" onclick="(${onclick})(this, this.parentElement.parentElement)">${name}</button>` }
+function makeButton (name, onclick, extra) { return `<button name="${name.split(' ')[0]}" onclick="(${onclick})(this, this.parentElement.parentElement)" ${extra || ''}>${name}</button>` }
 
 function controlsHtml (picks) { return ( '<span class="software-embed-controls">' +
 	(picks.all || picks.focus ? makeButton('Focus 🔳️', function(button, wrapper){
@@ -45,7 +45,11 @@ function controlsHtml (picks) { return ( '<span class="software-embed-controls">
 		var src = frame.src;
 		frame.src = '';
 		setTimeout(function(){ frame.src = src }, 33); // timeout to work around a bug where the frame remains blank
-	}) + ' ' : '') + '</span>'
+	}) + ' ' : '') + 
+	(picks.download && SalaMuseoGames.Prefs.allowDownloads.value ? makeButton('Download 📄', function(button){
+		window.open(decodeURIComponent(button.dataset.download), '_blank');
+	}, 'data-download="' + encodeURIComponent(picks.download) + '"') + ' ' : '') +
+	'</span>'
 ) }
 
 function diyEmbedHtml (frameUrl) { return (controlsHtml({ all: true }) +
@@ -65,7 +69,7 @@ if (platform === 'web') {
 		window.EJS_core = (core || platform);
 		window.EJS_gameUrl = romUrl('.7z');
 		window.EJS_screenRecording = { videoBitrate: 150000000 };
-		thisElement.parentElement.appendChild(SMG.Util.elementFromHtml(controlsHtml({ focus: true, enlarge: true })));
+		thisElement.parentElement.appendChild(SMG.Util.elementFromHtml(controlsHtml({ focus: true, enlarge: true, download: window.EJS_gameUrl })));
 		thisElement.parentElement.appendChild(SMG.Util.makeElement('div', {
 			className: 'software-embed-container',
 			style: 'width: 640px; height: 480px; max-width: 100%;',
@@ -81,6 +85,8 @@ if (platform === 'web') {
 			frameUrl = `${bin1Path}/dos.zone/${data.rom_index}/index.html`;
 		} else if (platform === 'pc98' || core === 'np2') {
 			frameUrl = `${bin1Path}/runtime/np2-emularity/index.html#rom=${romUrl('.zip')}`;
+		} else if (platform === 'love2d') {
+			frameUrl = `${bin1Path}/runtime/love.js/embed.html?lovegame=${romUrl('.love')}`;
 		}
 		thisElement.outerHTML = diyEmbedHtml(frameUrl);
 	break;
